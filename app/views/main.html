@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>#{get 'title' /}</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" type="text/css" media="screen" href="@{'/public/stylesheets/main.css'}">
+        <link rel="stylesheet" type="text/css" media="screen" href="@{'/public/stylesheets/oocss/template.css'}">
+        <link rel="stylesheet" type="text/css" media="screen" href="@{'/public/stylesheets/oocss/grids.css'}">
+        <link rel="stylesheet" type="text/css" media="screen" href="@{'/public/stylesheets/oocss/content.css'}">
+        <link rel="stylesheet" type="text/css" media="screen" href="@{'/public/stylesheets/chat.css'}">
+        <link rel="stylesheet" type="text/css" media="screen" href="@{'/public/stylesheets/mobiscroll-1.5.1.css'}">
+        <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/jquery.ui.ppmenu.css'}">
+        <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/jquery-ui-1.8.14.custom.css'}">
+        #{get 'moreStyles' /}
+        <link rel="shortcut icon" type="image/png" href="@{'/public/images/favicon.png'}">
+        <script src="@{'/public/javascripts/jquery-1.5.2.min.js'}" type="text/javascript" charset="utf-8"></script>
+        <script src="@{'/public/javascripts/jquery-ui-1.8.14.custom.min.js'}" type="text/javascript" charset="utf-8"></script>
+        <script src="@{'/public/javascripts/cartes.js'}" type="text/javascript" charset="utf-8"></script>
+        <script src="@{'/public/javascripts/zoneCanvas.js'}" type="text/javascript" charset="utf-8"></script>
+        <script src="@{'/public/javascripts/jquery.scrollTo-min.js'}" type="text/javascript" charset="utf-8"></script>
+        <script src="@{'/public/javascripts/templating.js'}" type="text/javascript" charset="utf-8"></script>
+        <script src="@{'/public/javascripts/jquery.ui.prettypiemenu.js'}" type="text/javascript" charset="utf-8"></script>
+        <script src="@{'/public/javascripts/mobiscroll-1.5.1.min.js'}" type="text/javascript" charset="utf-8"></script>
+        #{get 'moreScripts' /}
+    </head>
+    <body>
+      <div class="page">
+        <div class="head roundedDiv">
+          <h2>Cartes !</h2>
+          #{if flash.success}
+            <div class="ui-widget">
+            <p class="ui-state-highlight ui-corner-all">
+            <span class="ui-icon ui-icon-info" style="float: left; margin-right: 0.3em;"></span>
+            ${flash.success}</p>
+            </div>
+          #{/if}
+          #{if flash.error}
+            <div class="ui-widget">
+            <p class="ui-state-error ui-corner-all">
+              <span class="ui-icon ui-icon-alert" style="float: left; margin-right: 0.3em;"></span> 
+              ${flash.error}
+            </p>
+            </div>
+          #{/if}
+          
+          
+            <div id="options">
+            Connect as 
+              #{list items:userList, as:'u'}
+                #{a @login(u.username)}${u.username}#{/a} | 
+              #{/list} 
+            #{if user?.id} 
+              Connected as ${user.username} | 
+              <a href="@{Application.logout()}">Logout</a>
+          #{/if}
+          </div>
+          
+          #{if !user?.username}
+            <div class="line">
+            <div class="unit size1of2">
+              #{form @login(), id:'formLogin'}
+                <div class="line">
+                  <div class="unit size1of4">login :</div>
+                  <div class="unit size3of4 lastUnit"><input type="text" name="username" size="19" value="${flash.username}" /></div>
+                </div>
+                <div class="line">
+                  <div class="unit size1of4">password :</div>
+                  <div class="unit size3of4 lastUnit"><input type="password" name="password" size="19"/></div>
+                </div>
+                <input type="submit" value="Login" />
+              #{/form}
+            </div>
+            <div class="unit size1of2 lastUnit">
+              #{form @createUser(), id:'formLogin'}
+                <div class="line">
+                  <div class="unit size1of4">username :</div>
+                  <div class="unit size3of4 lastUnit"><input type="username" name="username" size="19" value="${flash.username}" /></div>
+                </div>
+                <input type="submit" value="Creer compte" />
+              #{/form}
+            </div>
+            </div>
+          #{/if}
+        </div>
+        #{if user}
+        #{doLayout /}
+        #{/if}
+        <div class="foot">
+          <div class="roundedDiv ">
+            
+            <div class="line espaceSup5">
+              #{a @BiblioPage.index()}&{'bibliopage'}#{/a}
+            </div>
+          </div>  
+        </div>
+      </div>
+    </body>
+</html>

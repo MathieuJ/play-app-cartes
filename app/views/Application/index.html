@@ -1,0 +1,56 @@
+#{extends 'main.html' /}
+#{set title:'Home' /}
+
+<script>
+var waitMessages = #{jsAction @waitMessages(':lastReceived') /}
+var say = #{jsAction @say(user) /}
+
+</script>
+
+<div class="roundedDiv">
+#{form @creerPartie(), id:'partieForm'}
+  <div class="line espaceSup15">
+    <div class="unit lastUnit"><h3>&{'creationPartie'}</h3></div>
+  </div>
+  <div class="line espaceSup5">
+    <div class="unit size1of3" style="text-align:right;">&{'nom'} : 
+    <input type="text" name="nom" size="19" value="${flash.nom}" /></div>
+    <div class="unit size1of3 lastUnit"><input class="espaceSup5" type="submit" value="&{'creation'}" /></div>
+  </div>
+#{/form}
+  <h3>&{'listePartie'}</h3>
+  <div class="line">
+    <div class="unit size1of5" >Nom</div>
+    <div class="unit size1of5" >Joueur 1 vs 2</div>
+    <div class="unit size1of5" >Date</div>
+    <div class="unit size2of5 lastUnit" ></div>
+  </div>
+  
+  #{list items:listePartie, as:'p'}
+    <div class="line">
+      <div class="unit size1of5" >${p.nom}&nbsp;</div>
+      <div class="unit size1of5" >${p.joueur1?.username} vs ${p.joueur2?.username}</div>
+      <div class="unit size1of5" >${p.getDate()?.format('dd MMMM yyyy hh:mm')}&nbsp;</div>
+      <div class="unit size1of5" >
+        #{if p.joueur2 == null && p.joueur1 != user}
+          #{a @rejoindrePartie(p.id)}Rejoindre#{/a}
+        #{/if}
+        
+        #{if !p.getZone("Deck_1").estVide() && !p.getZone("Deck_2").estVide()}
+          #{a @PartiePage.index(p.id)}Continuer#{/a}&nbsp;
+        #{/if}
+        
+        #{if user != null}
+          #{if !p.getZone("Deck", true).estVide()}
+            (${p.getZone("Deck", true).getTaille()} cartes)&nbsp;
+          #{/if}
+        #{/if}
+      </div>
+      <div class="unit size1of5 lastUnit" >#{a @PartiePage.supprimerPartie(p.id)}Supprimer#{/a}&nbsp;
+      </div>
+    </div>
+  #{/list}
+  
+  <h3>Blah</h3>
+  #{chatLongPolling /}	
+</div>

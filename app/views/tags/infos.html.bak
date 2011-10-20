@@ -1,0 +1,27 @@
+<div class="line infosZone">
+  <div class="unit size1of2">
+    <div class="bibliotheque">
+      #{zoneEmpilee zone:_partie.getZone('Bibliotheque', _soi) /}
+    </div>
+    <div class="cimetiere">
+      #{zoneEmpilee zone:_partie.getZone('Cimetiere', _soi) /}
+    </div>
+    <div class="exil">
+      #{zoneEmpilee zone:_partie.getZone('Exil', _soi) /}
+    </div>
+  </div>
+  
+  <div class="unit size1of2 lastUnit">
+    <div class="line">
+    <a onclick="afficheOptionsJoueurs(${_partie.getNumero(_soi)}, '${_partie.getJoueur(_soi).username}', ${_partie.getPointsVie(_soi)})">
+    ${_partie.getJoueur(_soi).username} : ${_partie.getPointsVie(_soi)} PV
+    </a>
+    </div>
+    <div class="line">
+      Main : ${_partie.getZone('Main', _soi).getTaille()} cartes
+    </div>
+    <div class="line">
+    </div>
+  </div>
+    
+</div>

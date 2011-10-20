@@ -1,0 +1,63 @@
+#{extends 'main.html' /}
+#{set title:'Home' /}
+
+<div class="roundedDiv">
+#{form @creerPartie(), id:'partieForm'}
+  <div class="line espaceSup15">
+    <div class="unit lastUnit">&{'creationPartie'}</div>
+  </div>
+  <div class="line espaceSup5">
+    <div class="unit size1of3" style="text-align:right;">&{'nom'}</div>
+    <div class="unit size2of3 lastUnit"><input type="text" name="nom" size="19" value="${flash.nom}" /></div>
+  </div>
+  <div class="line espaceSup5">
+    <div class="unit size1of3" style="text-align:right;">&{'PartieModele'}</div>
+    <div class="unit size2of3 lastUnit"><input type="password" name="password" size="19"/></div>
+  </div>
+  <div class="line espaceSup5">
+    <div class="unit size1of3" style="text-align:right;">&{'Paquet'}</div>
+    <div class="unit size2of3 lastUnit"><input type="password" name="password" size="19"/></div>
+  </div>
+  <input class="espaceSup5" type="submit" value="&{'creation'}" />
+#{/form}
+
+  <div class="line">
+    <div class="unit size1of5" >Nom</div>
+    <div class="unit size1of5" >Joueur 1</div>
+    <div class="unit size1of5" >Joueur 2</div>
+    <div class="unit size2of5 lastUnit" ></div>
+  </div>
+  
+  #{list items:listePartie, as:'p'}
+    <div class="line">
+      <div class="unit size1of5" >${p.nom}&nbsp;</div>
+      <div class="unit size1of5" >${p.joueur1?.username}&nbsp;</div>
+      <div class="unit size1of5" >${p.joueur2?.username}&nbsp;</div>
+      <div class="unit size1of5" >
+        #{if p.joueur2 == null && p.joueur1 != user}
+          #{a @rejoindrePartie(p.id)}Rejoindre#{/a}
+        #{/if}
+        
+        #{if !p.getZone("Deck_1").estVide() && !p.getZone("Deck_2").estVide()}
+          #{a @PartiePage.index(p.id)}Continuer#{/a}&nbsp;
+        #{/if}
+        
+        #{if user != null}NON NULL
+          #{if p.getZone("Deck", true).estVide()}
+            #{a @selectionDeck(p.id)}Charger deck#{/a}&nbsp;
+          #{/if}
+          #{if !p.getZone("Deck", true).estVide()}
+            Deck charge&nbsp;
+          #{/if}
+        #{/if}
+      </div>
+      <div class="unit size1of5 lastUnit" >#{a @PartiePage.supprimerPartie(p.id)}Supprimer#{/a}&nbsp;
+      </div>
+    </div>
+  #{/list}
+  
+<div class="line">
+  #{a @BiblioPage.index()}BiblioPage#{/a}
+</div>
+
+</div>

@@ -1,0 +1,42 @@
+#{extends 'main.html' /}
+#{set title:'Home' /}
+
+<div id="dialog">
+</div>
+
+<script>
+var  loadZoneAction = #{jsAction  @loadZone(':zoneNom', ':soi', ':param1', '')  /}
+var doActionGenerale = #{jsAction @actionGenerale(':nomAction', ':param1', ':param2', ':param3', ':param4') /}
+
+var waitMessages = #{jsAction @waitMessages(':lastReceived') /}
+var doUpdatePartie = #{jsAction  @updatePartie()  /}
+var say = #{jsAction @say(user) /}
+
+var soi = ${partie.getNumero(true)};
+var adversaire = ${partie.getNumero(false)};
+
+</script>
+
+<div class="line roundedDiv" >
+
+<div class="unit"  style="width:230px;">
+  <div class="line">
+    #{grandeCarte /}
+  </div>
+  
+  #{chatLongPolling /}
+</div>
+
+<div class="unit lastUnit">
+  <div id="partie">
+  #{partie partie : partie /}
+  </div>
+</div>
+
+</div>
+
+<div id="chat" class="roundedDiv" style="display:none">
+  <div class="unit size1of2 lastUnit" style="height:200px; overflow:auto;">
+    <div id="logs">&nbsp;</div>
+  </div>
+</div>

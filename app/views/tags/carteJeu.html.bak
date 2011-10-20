@@ -1,0 +1,11 @@
+<div 
+  onClick="afficheOptionsCarte('${_zoneNom}', '${_carte.nom}', '${_carte.id}');"
+  onMouseOver="afficheCarte('${_carte.getImageUrl()}');"
+  class="petiteCarte #{if _carte.isAttachee()}attachee#{/if} 
+    #{if _carte.isEngagee()}engagee#{/if}
+    #{else}
+      degagee
+    #{/else}
+   ">
+  <img src='${_carte.getImageUrl()}' />
+</div>

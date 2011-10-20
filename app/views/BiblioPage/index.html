@@ -1,0 +1,14 @@
+#{extends 'main.html' /}
+#{set title:'Home' /}
+
+
+<div class="line">
+  <div class="unit size3of4">
+  #{list items:listeCarteModele, as:'cm'}
+    #{carteTexte carte : cm /} 
+  #{/list} 
+  </div>
+  <div class="unit size1of4 lastUnit">
+    #{grandeCarte /}
+  </div>
+</div>

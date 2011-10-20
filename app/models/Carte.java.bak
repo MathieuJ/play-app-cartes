@@ -1,0 +1,84 @@
+package models;
+
+import javax.persistence.Entity;
+import javax.persistence.ManyToOne;
+import javax.persistence.Transient;
+
+import play.db.jpa.Model;
+
+@Entity
+public class Carte extends Model {
+	@ManyToOne()
+	public CarteModele carteModele;
+
+	public int retournee = 0;
+
+	public int engagee = 0;
+
+	public int attachee = 0;
+
+	public int proprietaire = 0;
+
+	public int transformee = 0;
+
+	@Transient
+	public int left;
+
+	@Transient
+	public int top;
+
+	public Carte(CarteModele cm) {
+		this.carteModele = cm;
+	}
+
+	public int getLeft() {
+		return left;
+	}
+
+	public int getTop() {
+		return top;
+	}
+
+	public String getNom() {
+		return carteModele.getNom();
+	}
+
+	public String getImageUrl() {
+		if (transformee == 0) {
+			return carteModele.getImageUrl();
+		} else {
+			return carteModele.getImageUrl().replace("a.jpg", "b.jpg");
+		}
+	}
+
+	public int isAttachee() {
+		return attachee;
+	}
+
+	public int isEngagee() {
+		return engagee;
+	}
+
+	public void setEngagee(int engagee) {
+		this.engagee = engagee;
+	}
+
+	public void setProprietaire(int numProprietaire) {
+		this.proprietaire = numProprietaire;
+	}
+
+	public int getTransformee() {
+		return transformee;
+	}
+
+	public void setTransformee(int transformee) {
+		this.transformee = transformee;
+	}
+
+	/*
+	 * @ManyToOne public Zone zone;
+	 * 
+	 * public String toString() { return id + " : " + carteModele.nom + " > " +
+	 * zone.nom; }
+	 */
+}

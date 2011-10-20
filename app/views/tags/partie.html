@@ -1,0 +1,35 @@
+USER : ${_partie.getSoi()} USERNAME : ${_partie.getSoi().username} PartieNumJoueur : ${_partie.getNumero(true)}
+
+  <div class="line #{if soi} tour #{/if}">
+    <div class="unit">
+    #{infos partie : _partie, soi : false /}
+  </div>
+    <div class="unit lastUnit champBataille ">
+    <div class="zoneJeu" style="position:absolute;">
+    #{list items:_partie.getZone("ChampBataille", false).getListeCarte(), as:'cm'}
+      #{carteJeu carte : cm, zoneNom : "ChampBataille_Adverse" /} 
+    #{/list}
+    </div>
+  </div>
+  </div>
+  
+  <div class="line  #{if !soi} tour #{/if}">
+    <div class="unit">
+    #{infos partie : _partie, soi : true /}
+    </div>
+    <div class="unit lastUnit champBataille ">
+      
+      <div class="zoneJeu" style="position:relative;">
+        #{list items:_partie.getZone("ChampBataille", true).getListeCarte(), as:'cm'}
+          #{carteJeu carte : cm, zoneNom : "ChampBataille_Soi" /} 
+        #{/list}
+      </div>
+    </div>
+  </div>
+  <div class="line main"  onclick="afficheOptions('Main_${_partie.getNumero(true)}', 0, 0);">
+    <div class="zoneJeu">
+      #{list items:_partie.getZone("Main", true).getListeCarte(), as:'cm'}
+        #{carteJeu carte : cm, zoneNom : "Main_Soi" /}
+      #{/list}
+    </div> 
+  </div>

@@ -1,0 +1,7 @@
+<div 
+  onClick="if ($(this).hasClass('selectionnee')) {$(this).removeClass('selectionnee');} else {$(this).addClass('selectionnee');}";
+  onMouseOver="afficheCarte('${_carte.getImageUrl()}');"
+  class="petiteCarte" id="${_carte.id}">
+   
+  <img src='${_carte.getImageUrl()}' />
+</div>

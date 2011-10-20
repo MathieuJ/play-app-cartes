@@ -1,0 +1,27 @@
+<div style="border:2px solid black;"> 
+<div class="line">
+  <div id="thread" style="height:270px;overflow:auto;">
+  </div>
+
+  <div id="newMessage">
+      <input type="text" id="message" style="width:156px;" onKeypress="if (event.charCode == 13 || event.keyCode == 13) {$('#send').click(); e.preventDefault()}">
+      <input type="submit" value="send" id="send" onclick="envoiTxt()">
+  </div>
+</div>
+
+<div class="line">
+	<input class="miniButton" type="submit" value="Ok" id="send" onclick="envoi('Ok')">
+	<input class="miniButton" type="submit" value="Non" id="send" onclick="envoi('Non')">
+	<input class="miniButton" type="submit" value="Réponse ?" id="send" onclick="envoi('Réponse ?')">
+	<input class="miniButton" type="submit" value="En Réponse" id="send" onclick="envoi('En réponse')">
+	<input class="miniButton" type="submit" value="A toi" id="send" onclick="envoi('A toi')">
+	<input class="miniButton" type="submit" value="EOT" id="send" onclick="envoi('EOT')">
+    <input class="miniButton" type="submit" value="Haha" id="send" onclick="envoi('Haha')">
+    <input class="miniButton" type="submit" value="GG" id="send" onclick="envoi('GG')">
+</div>
+</div>
+<script type="text/javascript">
+
+getMessages();
+    
+</script>

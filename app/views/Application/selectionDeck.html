@@ -1,0 +1,61 @@
+#{extends 'main.html' /}
+#{set title:'Home' /}
+
+<div id="dialog">
+</div>
+
+<div class="roundedDiv">
+  <h3>&{'votreDeck'}</h3>
+#{form @saveDeck()}
+  <input type="hidden" name="partieId" value="${partie.id}">
+  <textarea type="text" name="texte" cols = "80" rows="20" ></textarea>
+  <input class="espaceSup5" type="submit" value="&{'creation'}" />
+#{/form}
+
+<h3>Copier/coller pour utilisateur 1 :</h3>
+<textarea cols = "80" rows="20">
+      9 Island
+      2 Mausoleum Guard
+      1 Murder of Crows
+      1 Urgent Exorcism
+      1 Battleground Geist
+      8 Plains
+      1 Divine Reckoning
+      1 Doomed Traveler
+      3 Frightful Delusion
+      3 Moon Heron
+      1 Feeling of Dread
+      1 Delver of Secrets
+      1 Abbey Griffin
+      1 Spectral Flight
+      1 Lost in the Mist
+      1 Smite the Monstrous
+      1 Claustrophobia
+      1 Ghostly Possession
+      1 Curiosity
+      1 Cloistered Youth</textarea>
+
+<h3>Copier/coller pour utilisateur 2 :</h3>
+<textarea cols = "80" rows="20">
+       3 Ashmouth Hound
+      1 Moldgraf Monstrosity
+      1 Hanweir Watchkeep
+      1 Village Ironsmith
+      1 Ulvenwald Mystics
+      2 Brimstone Volley
+      7 Forest
+      1 Ranger's Guile
+      1 Avacyn's Pilgrim
+      1 Nightbird's Clutches
+      1 Charmbreaker Devils
+      1 Moonmist
+      1 Tormented Pariah
+      1 Hollowhenge Scavenger
+      1 Rolling Temblor
+      10 Mountain
+      1 Prey Upon
+      2 Geistflame
+      1 Spidery Grasp
+      2 Bloodcrazed Neonate
+</textarea>
+</div>

@@ -1,0 +1,16 @@
+#{extends 'main.html' /}
+#{set title:'Home' /}
+
+<div id="dialog">
+</div>
+
+<div class="roundedDiv">
+  <h3>&{'votreDeck'}</h3>
+#{form @saveDeck()}
+  <input type="hidden" name="partieId" value="${partie.id}">
+  <textarea type="text" name="texte" columns = "80" rows="20" ></textarea>
+  <input class="espaceSup5" type="submit" value="&{'creation'}" />
+#{/form}
+
+
+</div>

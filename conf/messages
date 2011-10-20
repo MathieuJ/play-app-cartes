@@ -1,0 +1,8 @@
+# You can specialize this file for each language.
+# For example, for French create a messages.fr file
+#
+
+creationPartie=Création de nouvelle partie
+listePartie=Liste des parties créées
+bibliopage=Liste des cartes
+votreDeck=Copiez votre liste au format apprentice (sur chaque ligne, nombre et nom de la carte)

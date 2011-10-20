@@ -1,0 +1,1055 @@
+CarteModele(cm_1) :
+    nom : Abbey Griffin
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/1.jpg
+
+CarteModele(cm_2) :
+    nom : Angel of Flight Alabaster
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/2.jpg
+
+CarteModele(cm_3) :
+    nom : Angelic Overseer
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/3.jpg
+
+CarteModele(cm_4) :
+    nom : Avacynian Priest
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/4.jpg
+
+CarteModele(cm_5) :
+    nom : Bonds of Faith
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/5.jpg
+
+CarteModele(cm_6) :
+    nom : Champion of the Parish
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/6.jpg
+
+CarteModele(cm_7) :
+    nom : Chapel Geist
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/7.jpg
+
+CarteModele(cm_8) :
+    nom : Cloistered Youth
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/8a.jpg
+
+CarteModele(cm_9) :
+    nom : Dearly Departed
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/9.jpg
+
+CarteModele(cm_10) :
+    nom : Divine Reckoning
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/10.jpg
+
+CarteModele(cm_11) :
+    nom : Doomed Traveler
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/11.jpg
+
+CarteModele(cm_12) :
+    nom : Elder Cathar
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/12.jpg
+
+CarteModele(cm_13) :
+    nom : Elite Inquisitor
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/13.jpg
+
+CarteModele(cm_14) :
+    nom : Feeling of Dread
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/14.jpg
+
+CarteModele(cm_15) :
+    nom : Fiend Hunter
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/15.jpg
+
+CarteModele(cm_16) :
+    nom : Gallows Warden
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/16.jpg
+
+CarteModele(cm_17) :
+    nom : Geist-Honored Monk
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/17.jpg
+
+CarteModele(cm_18) :
+    nom : Ghostly Possession
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/18.jpg
+
+CarteModele(cm_19) :
+    nom : Intangible Virtue
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/19.jpg
+
+CarteModele(cm_20) :
+    nom : Mausoleum Guard
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/20.jpg
+
+CarteModele(cm_21) :
+    nom : Mentor of the Meek
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/21.jpg
+
+CarteModele(cm_22) :
+    nom : Midnight Haunting
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/22.jpg
+
+CarteModele(cm_23) :
+    nom : Mikaeus, the Lunarch
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/23.jpg
+
+CarteModele(cm_24) :
+    nom : Moment of Heroism
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/24.jpg
+
+CarteModele(cm_25) :
+    nom : Nevermore
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/25.jpg
+
+CarteModele(cm_26) :
+    nom : Paraselene
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/26.jpg
+
+CarteModele(cm_27) :
+    nom : Purify the Grave
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/27.jpg
+
+CarteModele(cm_28) :
+    nom : Rally the Peasants
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/28.jpg
+
+CarteModele(cm_29) :
+    nom : Rebuke
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/29.jpg
+
+CarteModele(cm_30) :
+    nom : Selfless Cathar
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/30.jpg
+
+CarteModele(cm_31) :
+    nom : Silverchase Fox
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/31.jpg
+
+CarteModele(cm_32) :
+    nom : Slayer of the Wicked
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/32.jpg
+
+CarteModele(cm_33) :
+    nom : Smite the Monstrous
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/33.jpg
+
+CarteModele(cm_34) :
+    nom : Spare from Evil
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/34.jpg
+
+CarteModele(cm_35) :
+    nom : Spectral Rider
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/35.jpg
+
+CarteModele(cm_36) :
+    nom : Stony Silence
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/36.jpg
+
+CarteModele(cm_37) :
+    nom : Thraben Purebloods
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/37.jpg
+
+CarteModele(cm_38) :
+    nom : Thraben Sentry
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/38a.jpg
+
+CarteModele(cm_39) :
+    nom : Unruly Mob
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/39.jpg
+
+CarteModele(cm_40) :
+    nom : Urgent Exorcism
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/40.jpg
+
+CarteModele(cm_41) :
+    nom : Village Bell-Ringer
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/41.jpg
+
+CarteModele(cm_42) :
+    nom : Voiceless Spirit
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/42.jpg
+
+CarteModele(cm_43) :
+    nom : Armored Skaab
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/43.jpg
+
+CarteModele(cm_44) :
+    nom : Back from the Brink
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/44.jpg
+
+CarteModele(cm_45) :
+    nom : Battleground Geist
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/45.jpg
+
+CarteModele(cm_46) :
+    nom : Cackling Counterpart
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/46.jpg
+
+CarteModele(cm_47) :
+    nom : Civilized Scholar
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/47a.jpg
+
+CarteModele(cm_48) :
+    nom : Claustrophobia
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/48.jpg
+
+CarteModele(cm_49) :
+    nom : Curiosity
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/49.jpg
+
+CarteModele(cm_50) :
+    nom : Curse of the Bloody Tome
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/50.jpg
+
+CarteModele(cm_51) :
+    nom : Delver of Secrets
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/51a.jpg
+
+CarteModele(cm_52) :
+    nom : Deranged Assistant
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/52.jpg
+
+CarteModele(cm_53) :
+    nom : Dissipate
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/53.jpg
+
+CarteModele(cm_54) :
+    nom : Dream Twist
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/54.jpg
+
+CarteModele(cm_55) :
+    nom : Forbidden Alchemy
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/55.jpg
+
+CarteModele(cm_56) :
+    nom : Fortress Crab
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/56.jpg
+
+CarteModele(cm_57) :
+    nom : Frightful Delusion
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/57.jpg
+
+CarteModele(cm_58) :
+    nom : Grasp of Phantoms
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/58.jpg
+
+CarteModele(cm_59) :
+    nom : Hysterical Blindness
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/59.jpg
+
+CarteModele(cm_60) :
+    nom : Invisible Stalker
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/60.jpg
+
+CarteModele(cm_61) :
+    nom : Laboratory Maniac
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/61.jpg
+
+CarteModele(cm_62) :
+    nom : Lantern Spirit
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/62.jpg
+
+CarteModele(cm_63) :
+    nom : Lost in the Mist
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/63.jpg
+
+CarteModele(cm_64) :
+    nom : Ludevic's Test Subject
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/64a.jpg
+
+CarteModele(cm_65) :
+    nom : Makeshift Mauler
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/65.jpg
+
+CarteModele(cm_66) :
+    nom : Memory's Journey
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/66.jpg
+
+CarteModele(cm_67) :
+    nom : Mindshrieker
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/67.jpg
+
+CarteModele(cm_68) :
+    nom : Mirror-Mad Phantasm
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/68.jpg
+
+CarteModele(cm_69) :
+    nom : Moon Heron
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/69.jpg
+
+CarteModele(cm_70) :
+    nom : Murder of Crows
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/70.jpg
+
+CarteModele(cm_71) :
+    nom : Rooftop Storm
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/71.jpg
+
+CarteModele(cm_72) :
+    nom : Runic Repetition
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/72.jpg
+
+CarteModele(cm_73) :
+    nom : Selhoff Occultist
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/73.jpg
+
+CarteModele(cm_74) :
+    nom : Sensory Deprivation
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/74.jpg
+
+CarteModele(cm_75) :
+    nom : Silent Departure
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/75.jpg
+
+CarteModele(cm_76) :
+    nom : Skaab Goliath
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/76.jpg
+
+CarteModele(cm_77) :
+    nom : Skaab Ruinator
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/77.jpg
+
+CarteModele(cm_78) :
+    nom : Snapcaster Mage
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/78.jpg
+
+CarteModele(cm_79) :
+    nom : Spectral Flight
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/79.jpg
+
+CarteModele(cm_80) :
+    nom : Stitched Drake
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/80.jpg
+
+CarteModele(cm_81) :
+    nom : Stitcher's Apprentice
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/81.jpg
+
+CarteModele(cm_82) :
+    nom : Sturmgeist
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/82.jpg
+
+CarteModele(cm_83) :
+    nom : Think Twice
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/83.jpg
+
+CarteModele(cm_84) :
+    nom : Undead Alchemist
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/84.jpg
+
+CarteModele(cm_85) :
+    nom : Abattoir Ghoul
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/85.jpg
+
+CarteModele(cm_86) :
+    nom : Altar's Reap
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/86.jpg
+
+CarteModele(cm_87) :
+    nom : Army of the Damned
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/87.jpg
+
+CarteModele(cm_88) :
+    nom : Bitterheart Witch
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/88.jpg
+
+CarteModele(cm_89) :
+    nom : Bloodgift Demon
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/89.jpg
+
+CarteModele(cm_90) :
+    nom : Bloodline Keeper
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/90a.jpg
+
+CarteModele(cm_91) :
+    nom : Brain Weevil
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/91.jpg
+
+CarteModele(cm_92) :
+    nom : Bump in the Night
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/92.jpg
+
+CarteModele(cm_93) :
+    nom : Corpse Lunge
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/93.jpg
+
+CarteModele(cm_94) :
+    nom : Curse of Death's Hold
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/94.jpg
+
+CarteModele(cm_95) :
+    nom : Curse of Oblivion
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/95.jpg
+
+CarteModele(cm_96) :
+    nom : Dead Weight
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/96.jpg
+
+CarteModele(cm_97) :
+    nom : Diregraf Ghoul
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/97.jpg
+
+CarteModele(cm_98) :
+    nom : Disciple of Griselbrand
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/98.jpg
+
+CarteModele(cm_99) :
+    nom : Endless Ranks of the Dead
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/99.jpg
+
+CarteModele(cm_100) :
+    nom : Falkenrath Noble
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/100.jpg
+
+CarteModele(cm_101) :
+    nom : Ghoulcaller's Chant
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/101.jpg
+
+CarteModele(cm_102) :
+    nom : Ghoulraiser
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/102.jpg
+
+CarteModele(cm_103) :
+    nom : Gruesome Deformity
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/103.jpg
+
+CarteModele(cm_104) :
+    nom : Heartless Summoning
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/104.jpg
+
+CarteModele(cm_105) :
+    nom : Liliana of the Veil
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/105.jpg
+
+CarteModele(cm_106) :
+    nom : Manor Skeleton
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/106.jpg
+
+CarteModele(cm_107) :
+    nom : Markov Patrician
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/107.jpg
+
+CarteModele(cm_108) :
+    nom : Maw of the Mire
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/108.jpg
+
+CarteModele(cm_109) :
+    nom : Moan of the Unhallowed
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/109.jpg
+
+CarteModele(cm_110) :
+    nom : Morkrut Banshee
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/110.jpg
+
+CarteModele(cm_111) :
+    nom : Night Terrors
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/111.jpg
+
+CarteModele(cm_112) :
+    nom : Reaper from the Abyss
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/112.jpg
+
+CarteModele(cm_113) :
+    nom : Rotting Fensnake
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/113.jpg
+
+CarteModele(cm_114) :
+    nom : Screeching Bat
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/114a.jpg
+
+CarteModele(cm_115) :
+    nom : Sever the Bloodline
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/115.jpg
+
+CarteModele(cm_116) :
+    nom : Skeletal Grimace
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/116.jpg
+
+CarteModele(cm_117) :
+    nom : Skirsdag High Priest
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/117.jpg
+
+CarteModele(cm_118) :
+    nom : Stromkirk Patrol
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/118.jpg
+
+CarteModele(cm_119) :
+    nom : Tribute to Hunger
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/119.jpg
+
+CarteModele(cm_120) :
+    nom : Typhoid Rats
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/120.jpg
+
+CarteModele(cm_121) :
+    nom : Unbreathing Horde
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/121.jpg
+
+CarteModele(cm_122) :
+    nom : Unburial Rites
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/122.jpg
+
+CarteModele(cm_123) :
+    nom : Vampire Interloper
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/123.jpg
+
+CarteModele(cm_124) :
+    nom : Victim of Night
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/124.jpg
+
+CarteModele(cm_125) :
+    nom : Village Cannibals
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/125.jpg
+
+CarteModele(cm_126) :
+    nom : Walking Corpse
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/126.jpg
+
+CarteModele(cm_127) :
+    nom : Ancient Grudge
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/127.jpg
+
+CarteModele(cm_128) :
+    nom : Ashmouth Hound
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/128.jpg
+
+CarteModele(cm_129) :
+    nom : Balefire Dragon
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/129.jpg
+
+CarteModele(cm_130) :
+    nom : Blasphemous Act
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/130.jpg
+
+CarteModele(cm_131) :
+    nom : Bloodcrazed Neonate
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/131.jpg
+
+CarteModele(cm_132) :
+    nom : Brimstone Volley
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/132.jpg
+
+CarteModele(cm_133) :
+    nom : Burning Vengeance
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/133.jpg
+
+CarteModele(cm_134) :
+    nom : Charmbreaker Devils
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/134.jpg
+
+CarteModele(cm_135) :
+    nom : Crossway Vampire
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/135.jpg
+
+CarteModele(cm_136) :
+    nom : Curse of Stalked Prey
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/136.jpg
+
+CarteModele(cm_137) :
+    nom : Curse of the Nightly Hunt
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/137.jpg
+
+CarteModele(cm_138) :
+    nom : Curse of the Pierced Heart
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/138.jpg
+
+CarteModele(cm_139) :
+    nom : Desperate Ravings
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/139.jpg
+
+CarteModele(cm_140) :
+    nom : Devil's Play
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/140.jpg
+
+CarteModele(cm_141) :
+    nom : Falkenrath Marauders
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/141.jpg
+
+CarteModele(cm_142) :
+    nom : Feral Ridgewolf
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/142.jpg
+
+CarteModele(cm_143) :
+    nom : Furor of the Bitten
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/143.jpg
+
+CarteModele(cm_144) :
+    nom : Geistflame
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/144.jpg
+
+CarteModele(cm_145) :
+    nom : Hanweir Watchkeep
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/145a.jpg
+
+CarteModele(cm_146) :
+    nom : Harvest Pyre
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/146.jpg
+
+CarteModele(cm_147) :
+    nom : Heretic's Punishment
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/147.jpg
+
+CarteModele(cm_148) :
+    nom : Infernal Plunge
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/148.jpg
+
+CarteModele(cm_149) :
+    nom : Instigator Gang
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/149a.jpg
+
+CarteModele(cm_150) :
+    nom : Into the Maw of Hell
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/150.jpg
+
+CarteModele(cm_151) :
+    nom : Kessig Wolf
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/151.jpg
+
+CarteModele(cm_152) :
+    nom : Kruin Outlaw
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/152a.jpg
+
+CarteModele(cm_153) :
+    nom : Night Revelers
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/153.jpg
+
+CarteModele(cm_154) :
+    nom : Nightbird's Clutches
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/154.jpg
+
+CarteModele(cm_155) :
+    nom : Past in Flames
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/155.jpg
+
+CarteModele(cm_156) :
+    nom : Pitchburn Devils
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/156.jpg
+
+CarteModele(cm_157) :
+    nom : Rage Thrower
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/157.jpg
+
+CarteModele(cm_158) :
+    nom : Rakish Heir
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/158.jpg
+
+CarteModele(cm_159) :
+    nom : Reckless Waif
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/159a.jpg
+
+CarteModele(cm_160) :
+    nom : Riot Devils
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/160.jpg
+
+CarteModele(cm_161) :
+    nom : Rolling Temblor
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/161.jpg
+
+CarteModele(cm_162) :
+    nom : Scourge of Geier Reach
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/162.jpg
+
+CarteModele(cm_163) :
+    nom : Skirsdag Cultist
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/163.jpg
+
+CarteModele(cm_164) :
+    nom : Stromkirk Noble
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/164.jpg
+
+CarteModele(cm_165) :
+    nom : Tormented Pariah
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/165a.jpg
+
+CarteModele(cm_166) :
+    nom : Traitorous Blood
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/166.jpg
+
+CarteModele(cm_167) :
+    nom : Vampiric Fury
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/167.jpg
+
+CarteModele(cm_168) :
+    nom : Village Ironsmith
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/168a.jpg
+
+CarteModele(cm_169) :
+    nom : Ambush Viper
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/169.jpg
+
+CarteModele(cm_170) :
+    nom : Avacyn's Pilgrim
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/170.jpg
+
+CarteModele(cm_171) :
+    nom : Boneyard Wurm
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/171.jpg
+
+CarteModele(cm_172) :
+    nom : Bramblecrush
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/172.jpg
+
+CarteModele(cm_173) :
+    nom : Caravan Vigil
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/173.jpg
+
+CarteModele(cm_174) :
+    nom : Creeping Renaissance
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/174.jpg
+
+CarteModele(cm_175) :
+    nom : Darkthicket Wolf
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/175.jpg
+
+CarteModele(cm_176) :
+    nom : Daybreak Ranger
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/176a.jpg
+
+CarteModele(cm_177) :
+    nom : Elder of Laurels
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/177.jpg
+
+CarteModele(cm_178) :
+    nom : Essence of the Wild
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/178.jpg
+
+CarteModele(cm_179) :
+    nom : Festerhide Boar
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/179.jpg
+
+CarteModele(cm_180) :
+    nom : Full Moon's Rise
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/180.jpg
+
+CarteModele(cm_181) :
+    nom : Garruk Relentless
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/181a.jpg
+
+CarteModele(cm_182) :
+    nom : Gatstaf Shepherd
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/182a.jpg
+
+CarteModele(cm_183) :
+    nom : Gnaw to the Bone
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/183.jpg
+
+CarteModele(cm_184) :
+    nom : Grave Bramble
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/184.jpg
+
+CarteModele(cm_185) :
+    nom : Grizzled Outcasts
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/185a.jpg
+
+CarteModele(cm_186) :
+    nom : Gutter Grime
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/186.jpg
+
+CarteModele(cm_187) :
+    nom : Hamlet Captain
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/187.jpg
+
+CarteModele(cm_188) :
+    nom : Hollowhenge Scavenger
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/188.jpg
+
+CarteModele(cm_189) :
+    nom : Kessig Cagebreakers
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/189.jpg
+
+CarteModele(cm_190) :
+    nom : Kindercatch
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/190.jpg
+
+CarteModele(cm_191) :
+    nom : Lumberknot
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/191.jpg
+
+CarteModele(cm_192) :
+    nom : Make a Wish
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/192.jpg
+
+CarteModele(cm_193) :
+    nom : Mayor of Avabruck
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/193a.jpg
+
+CarteModele(cm_194) :
+    nom : Moldgraf Monstrosity
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/194.jpg
+
+CarteModele(cm_195) :
+    nom : Moonmist
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/195.jpg
+
+CarteModele(cm_196) :
+    nom : Mulch
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/196.jpg
+
+CarteModele(cm_197) :
+    nom : Naturalize
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/197.jpg
+
+CarteModele(cm_198) :
+    nom : Orchard Spirit
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/198.jpg
+
+CarteModele(cm_199) :
+    nom : Parallel Lives
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/199.jpg
+
+CarteModele(cm_200) :
+    nom : Prey Upon
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/200.jpg
+
+CarteModele(cm_201) :
+    nom : Ranger's Guile
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/201.jpg
+
+CarteModele(cm_202) :
+    nom : Somberwald Spider
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/202.jpg
+
+CarteModele(cm_203) :
+    nom : Spider Spawning
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/203.jpg
+
+CarteModele(cm_204) :
+    nom : Spidery Grasp
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/204.jpg
+
+CarteModele(cm_205) :
+    nom : Splinterfright
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/205.jpg
+
+CarteModele(cm_206) :
+    nom : Travel Preparations
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/206.jpg
+
+CarteModele(cm_207) :
+    nom : Tree of Redemption
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/207.jpg
+
+CarteModele(cm_208) :
+    nom : Ulvenwald Mystics
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/208a.jpg
+
+CarteModele(cm_209) :
+    nom : Villagers of Estwald
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/209a.jpg
+
+CarteModele(cm_210) :
+    nom : Woodland Sleuth
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/210.jpg
+
+CarteModele(cm_211) :
+    nom : Wreath of Geists
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/211.jpg
+
+CarteModele(cm_212) :
+    nom : Evil Twin
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/212.jpg
+
+CarteModele(cm_213) :
+    nom : Geist of Saint Traft
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/213.jpg
+
+CarteModele(cm_214) :
+    nom : Grimgrin, Corpse-Born
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/214.jpg
+
+CarteModele(cm_215) :
+    nom : Olivia Voldaren
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/215.jpg
+
+CarteModele(cm_216) :
+    nom : Blazing Torch
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/216.jpg
+
+CarteModele(cm_217) :
+    nom : Butcher's Cleaver
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/217.jpg
+
+CarteModele(cm_218) :
+    nom : Cellar Door
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/218.jpg
+
+CarteModele(cm_219) :
+    nom : Cobbled Wings
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/219.jpg
+
+CarteModele(cm_220) :
+    nom : Creepy Doll
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/220.jpg
+
+CarteModele(cm_221) :
+    nom : Demonmail Hauberk
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/221.jpg
+
+CarteModele(cm_222) :
+    nom : Galvanic Juggernaut
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/222.jpg
+
+CarteModele(cm_223) :
+    nom : Geistcatcher's Rig
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/223.jpg
+
+CarteModele(cm_224) :
+    nom : Ghoulcaller's Bell
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/224.jpg
+
+CarteModele(cm_225) :
+    nom : Graveyard Shovel
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/225.jpg
+
+CarteModele(cm_226) :
+    nom : Grimoire of the Dead
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/226.jpg
+
+CarteModele(cm_227) :
+    nom : Inquisitor's Flail
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/227.jpg
+
+CarteModele(cm_228) :
+    nom : Manor Gargoyle
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/228.jpg
+
+CarteModele(cm_229) :
+    nom : Mask of Avacyn
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/229.jpg
+
+CarteModele(cm_230) :
+    nom : One-Eyed Scarecrow
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/230.jpg
+
+CarteModele(cm_231) :
+    nom : Runechanter's Pike
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/231.jpg
+
+CarteModele(cm_232) :
+    nom : Sharpened Pitchfork
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/232.jpg
+
+CarteModele(cm_233) :
+    nom : Silver-Inlaid Dagger
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/233.jpg
+
+CarteModele(cm_234) :
+    nom : Traveler's Amulet
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/234.jpg
+
+CarteModele(cm_235) :
+    nom : Trepanation Blade
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/235.jpg
+
+CarteModele(cm_236) :
+    nom : Witchbane Orb
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/236.jpg
+
+CarteModele(cm_237) :
+    nom : Wooden Stake
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/237.jpg
+
+CarteModele(cm_238) :
+    nom : Clifftop Retreat
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/238.jpg
+
+CarteModele(cm_239) :
+    nom : Gavony Township
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/239.jpg
+
+CarteModele(cm_240) :
+    nom : Ghost Quarter
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/240.jpg
+
+CarteModele(cm_241) :
+    nom : Hinterland Harbor
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/241.jpg
+
+CarteModele(cm_242) :
+    nom : Isolated Chapel
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/242.jpg
+
+CarteModele(cm_243) :
+    nom : Kessig Wolf Run
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/243.jpg
+
+CarteModele(cm_244) :
+    nom : Moorland Haunt
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/244.jpg
+
+CarteModele(cm_245) :
+    nom : Nephalia Drownyard
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/245.jpg
+
+CarteModele(cm_246) :
+    nom : Shimmering Grotto
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/246.jpg
+
+CarteModele(cm_247) :
+    nom : Stensia Bloodhall
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/247.jpg
+
+CarteModele(cm_248) :
+    nom : Sulfur Falls
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/248.jpg
+
+CarteModele(cm_249) :
+    nom : Woodland Cemetery
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/249.jpg
+
+CarteModele(cm_250) :
+    nom : Plains
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/250.jpg
+
+CarteModele(cm_251) :
+    nom : Island
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/253.jpg
+
+CarteModele(cm_252) :
+    nom : Swamp
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/256.jpg
+
+CarteModele(cm_253) :
+    nom : Mountain
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/260.jpg
+
+CarteModele(cm_254) :
+    nom : Forest
+    imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/264.jpg
+
+CarteModele(cm_T1) :
+    nom : Angel Token
+    imageUrl : /public/images/cartes/angel.jpg
+
+CarteModele(cm_T2) :
+    nom : Demon Token
+    imageUrl : /public/images/cartes/demon.jpg
+
+CarteModele(cm_T3) :
+    nom : Homonculus Token
+    imageUrl : /public/images/cartes/homonculus.jpg
+
+CarteModele(cm_T4) :
+    nom : Ooze Token
+    imageUrl : /public/images/cartes/ooze.jpg
+
+CarteModele(cm_T5) :
+    nom : Spider Token
+    imageUrl : /public/images/cartes/spider.jpg
+
+CarteModele(cm_T6) :
+    nom : Spirit Token
+    imageUrl : /public/images/cartes/spirit.jpg
+
+CarteModele(cm_T7) :
+    nom : Vampire Token
+    imageUrl : /public/images/cartes/vampire.jpg
+
+CarteModele(cm_T8) :
+    nom : Black Wolf Token
+    imageUrl : /public/images/cartes/wolfB.jpg
+
+CarteModele(cm_T9) :
+    nom : Green Wolf Token
+    imageUrl : /public/images/cartes/wolfG.jpg
+
+CarteModele(cm_T10) :
+    nom : Zombie Token
+    imageUrl : /public/images/cartes/zombie.jpg
