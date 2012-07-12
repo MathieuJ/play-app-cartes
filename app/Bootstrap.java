@@ -11,6 +11,7 @@ public class Bootstrap extends Job {
 			System.out.println("charge cpqf");
 			//Fixtures.loadModels("data-cartes.yml");
 			Fixtures.loadModels("data-Innistrad.yml");
+			Fixtures.loadModels("data-M2012.yml");
 		}
 	}
 

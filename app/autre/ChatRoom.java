@@ -8,14 +8,12 @@ import play.libs.F.ArchivedEventStream;
 import play.libs.F.EventStream;
 import play.libs.F.IndexedEvent;
 import play.libs.F.Promise;
-import play.mvc.Scope.Session;
 
 public class ChatRoom {
 
 	// ~~~~~~~~~ Let's chat!
 
-	final ArchivedEventStream<ChatRoom.Event> chatEvents = new ArchivedEventStream<ChatRoom.Event>(
-			100);
+	final ArchivedEventStream<ChatRoom.Event> chatEvents = new ArchivedEventStream<ChatRoom.Event>(100);
 
 	/**
 	 * For WebSocket, when a user join the room we return a continuous event
@@ -33,33 +31,27 @@ public class ChatRoom {
 		chatEvents.publish(new Leave(user));
 	}
 
-	/**
-	 * A user say something on the room
-	 */
-	public void say(String user, String text) {
-		if (text == null || text.trim().equals("")) {
-			return;
-		}
-		chatEvents.publish(new Message(user, text));
-	}
-
+	
 	/**
 	 * Action magic
 	 */
-	public void action(String user, String action, String param1, String param2) {
-		chatEvents.publish(new Action(user, action, param1, param2));
+	public void publish(Event event) {
+		chatEvents.publish(event);
 	}
 
-	public void actionGenerale(int numUser, String user, String action) {
-		chatEvents.publish(new ActionGenerale(numUser, user, action));
+	public void actionEngageDegage(String user, String carteId, boolean engage) {
+		if (engage) {
+			chatEvents.publish(new ActionEngageDegage(user, carteId, "engage"));
+		} else {
+			chatEvents.publish(new ActionEngageDegage(user, carteId, "degage"));
+		}
 	}
 
 	/**
 	 * For long polling, as we are sometimes disconnected, we need to pass the
 	 * last event seen id, to be sure to not miss any message
 	 */
-	public Promise<List<IndexedEvent<ChatRoom.Event>>> nextMessages(
-			long lastReceived) {
+	public Promise<List<IndexedEvent<ChatRoom.Event>>> nextMessages(long lastReceived) {
 		return chatEvents.nextEvents(lastReceived);
 	}
 
@@ -120,18 +112,14 @@ public class ChatRoom {
 
 	}
 
-	public static class Action extends Event {
-		final public String texte;
+	public static class ActionEngageDegage extends Event {
 		final public String user;
-		final public String param1;
-		final public String param2;
+		final public String carteId;
 
-		public Action(String user, String action, String param1, String param2) {
-			super("action");
+		public ActionEngageDegage(String user, String carteId, String engage) {
+			super(engage);
 			this.user = user;
-			this.param1 = param1;
-			this.param2 = param2;
-			this.texte = action;
+			this.carteId = carteId;
 		}
 
 	}
@@ -159,8 +147,7 @@ public class ChatRoom {
 		if (!mapInstance.containsKey(partieId)) {
 			mapInstance.put(partieId, new ChatRoom());
 		}
-		Logger.info("nb msg : "
-				+ mapInstance.get(partieId).chatEvents.archive().size());
+		Logger.info("nb msg : " + mapInstance.get(partieId).chatEvents.archive().size());
 		return mapInstance.get(partieId);
 	}
 }

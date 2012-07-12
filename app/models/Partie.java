@@ -36,7 +36,7 @@ public class Partie extends Model {
 
 	// 1 : upkeep, 2: draw; 3: Main, 4: declare attackers, 5: declare blockers, 6:
 	// Main 2, 7: EOT.
-	public int etape;
+	public int etape = 3;
 
 	public String getNom() {
 		return nom;
@@ -92,6 +92,14 @@ public class Partie extends Model {
 		this.date = date;
 		this.nom = nom;
 		this.tour = (int) (Math.random() * 2) + 1;
+	}
+
+	public int getTour() {
+		return tour;
+	}
+
+	public void setTour(int tour) {
+		this.tour = tour;
 	}
 
 	public User getJoueur(boolean soi) {

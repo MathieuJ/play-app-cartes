@@ -8,6 +8,8 @@ import play.db.jpa.Model;
 
 @Entity
 public class CarteModele extends Model {
+	public String extension;
+	
 	public String nom;
 
 	public String imageUrl;

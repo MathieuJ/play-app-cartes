@@ -2,7 +2,6 @@ package models;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
 
 import javax.persistence.CascadeType;
@@ -61,6 +60,14 @@ public class Zone extends Model {
 		}
 	}
 
+	public void add(int index, Carte carte) {
+		// carte.zone = this;
+		listeCarte.add(index, carte);
+		if ("ChampBataille_1".equals(nom) || "ChampBataille_2".equals(nom)) {
+			calculePositions();
+		}
+	}
+
 	public String toString() {
 		return id + " : " + partie.id + " > " + nom;
 	}
@@ -85,29 +92,30 @@ public class Zone extends Model {
 		return t;
 	}
 
-	private void calculePositions() {
+	public void calculePositions() {
 		List<Carte> listeTerrains = new ArrayList();
 		List<Carte> listePermanents = new ArrayList();
 		for (Carte carte : listeCarte) {
-			if (carte.carteModele.id >= 250 && carte.carteModele.id < 255) {
+			if (carte.isTerrain()) {
 				listeTerrains.add(carte);
 			} else {
 				listePermanents.add(carte);
 			}
 		}
-		Collections.sort(listeTerrains, new Comparator<Carte>() {
-			@Override
-			public int compare(Carte o1, Carte o2) {
-				// TODO Auto-generated method stub
-				return (int) (o1.carteModele.id - o2.carteModele.id);
-			}
-		});
+		Collections.sort(listeTerrains);
 		int left = 10;
 		int top = 10;
 		for (Carte carte : listePermanents) {
 			carte.top = top;
 			carte.left = left;
-			left += 80;
+			if (carte.isAttachee()){
+				carte.top = top - 5;
+				left += 30;
+			} else {
+				left += 80;
+			}
+			
+			Logger.info("Carte " + carte.getNom() + " " + carte.left);
 		}
 		left = -70;
 		top = 110;

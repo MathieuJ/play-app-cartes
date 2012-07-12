@@ -4,7 +4,6 @@ import static play.libs.F.Matcher.ClassOf;
 import static play.libs.F.Matcher.Equals;
 import static play.mvc.Http.WebSocketEvent.SocketClosed;
 import static play.mvc.Http.WebSocketEvent.TextFrame;
-import autre.ChatRoom;
 import play.Logger;
 import play.libs.F.Either;
 import play.libs.F.EventStream;
@@ -14,6 +13,8 @@ import play.mvc.Http.WebSocketClose;
 import play.mvc.Http.WebSocketEvent;
 import play.mvc.Scope.Session;
 import play.mvc.WebSocketController;
+import autre.ChatRoom;
+import autre.ChatRoom.Message;
 
 public class WebSocket extends Controller {
 
@@ -25,7 +26,8 @@ public class WebSocket extends Controller {
 
 		public static void join(String user) {
 
-			// ChatRoom room = ChatRoom.get(new Long(Session.current().get("partieId")));
+			// ChatRoom room = ChatRoom.get(new
+			// Long(Session.current().get("partieId")));
 			ChatRoom room = ChatRoom.get(Session.current().get("partieId"));
 
 			// Socket connected, join the chat room
@@ -47,7 +49,7 @@ public class WebSocket extends Controller {
 
 				// Case: TextEvent received on the socket
 				for (String userMessage : TextFrame.match(e._1)) {
-					room.say(user, userMessage);
+					room.publish(new Message(user, userMessage));
 				}
 
 				// Case: Someone joined the room
@@ -67,7 +69,7 @@ public class WebSocket extends Controller {
 				}
 
 				// Case: Someone do action
-				for (ChatRoom.Action action : ClassOf(ChatRoom.Action.class).match(e._2)) {
+				for (ChatRoom.ActionGenerale action : ClassOf(ChatRoom.ActionGenerale.class).match(e._2)) {
 					outbound.send("action");
 				}
 

@@ -3,12 +3,11 @@ package models;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.ManyToOne;
-import javax.persistence.Transient;
 
 import play.db.jpa.Model;
 
 @Entity
-public class Carte extends Model {
+public class Carte extends Model implements Comparable {
 	@ManyToOne()
 	public CarteModele carteModele;
 
@@ -23,6 +22,16 @@ public class Carte extends Model {
 	public boolean transformee = false;
 
 	public boolean token = false;
+
+	public String marqueur = "";
+
+	public String getMarqueur() {
+		return marqueur;
+	}
+
+	public void setMarqueur(String marqueur) {
+		this.marqueur = marqueur;
+	}
 
 	public boolean isToken() {
 		return token;
@@ -95,6 +104,20 @@ public class Carte extends Model {
 
 	public void setTransformee(boolean transformee) {
 		this.transformee = transformee;
+	}
+
+	public boolean isTerrain() {
+		if (carteModele == null) {
+			return false;
+		}
+		return (carteModele.id >= 250 && carteModele.id < 255);
+	}
+
+	@Override
+	public int compareTo(Object o) {
+		Carte c = (Carte) o;
+		return (int) (carteModele.id - c.carteModele.id);
+
 	}
 
 }

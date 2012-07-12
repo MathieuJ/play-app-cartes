@@ -12,6 +12,9 @@ import play.libs.F.IndexedEvent;
 import play.mvc.Before;
 import play.mvc.Scope.Session;
 import autre.ChatRoom;
+import autre.ChatRoom.ActionGenerale;
+import autre.ChatRoom.Event;
+import autre.ChatRoom.Message;
 import autre.PartieService;
 
 import com.google.gson.reflect.TypeToken;
@@ -73,11 +76,12 @@ public class PartiePage extends Application {
 		render("PartiePage/partie.html", partie);
 	}
 
-	public static void say(String user, String message) {
-		Logger.info(user + " say " + message);
-		// ChatRoom.get(new Long(Session.current().get("partieId"))).say(user,
-		// message);
-		ChatRoom.get(Session.current().get("partieId")).say(user, message);
+	public static void say(String message) {
+		if (message.trim().length() == 0) {
+			return;
+		}
+		Logger.info(connected().username + " dit " + message);
+		ChatRoom.get(Session.current().get("partieId")).publish(new Message(connected().username, message));
 	}
 
 	/**
@@ -101,17 +105,13 @@ public class PartiePage extends Application {
 
 	public static void actionGenerale(String nomAction, String param1, String param2, String param3, String param4) {
 
-		Logger.info("_____________________ Action Generale  fddf  : id de la partie " + new Long(Session.current().get("partieId")) + " _User:" + connected() + " _action:" + nomAction + " _p1:" + param1
+		Logger.info("_____________________ Action Generale : id de la partie " + new Long(Session.current().get("partieId")) + " _User:" + connected() + " _action:" + nomAction + " _p1:" + param1
 		    + " _p2:" + param2 + " " + param3 + " " + param4);
 		Partie partie = Partie.findById(new Long(Session.current().get("partieId")));
-		String msg = PartieService.actionGenerale(partie, connected(), nomAction, param1, param2, param3, param4);
+		Event event = PartieService.actionGenerale(partie, connected(), nomAction, param1, param2, param3, param4);
 
-		// ChatRoom.get(new
-		// Long(Session.current().get("partieId"))).actionGenerale(user.username,
-		// msg);
-		Logger.info("action generale " + connected().username + " " + msg);
-		
-		ChatRoom.get(Session.current().get("partieId")).actionGenerale(partie.getNumero(true), connected().username, msg);
+		Logger.info("_____________________ action generale " + connected().username);
+		ChatRoom.get(Session.current().get("partieId")).publish(event);
 	}
 
 	public static void waitMessages(Long lastReceived) {

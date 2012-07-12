@@ -3,8 +3,6 @@ package controllers;
 import java.util.Date;
 import java.util.List;
 
-import com.google.gson.reflect.TypeToken;
-
 import models.Partie;
 import models.PartieModele;
 import models.User;
@@ -15,7 +13,10 @@ import play.mvc.Before;
 import play.mvc.Controller;
 import play.mvc.Scope.Session;
 import autre.ChatRoom;
+import autre.ChatRoom.Message;
 import autre.PartieService;
+
+import com.google.gson.reflect.TypeToken;
 
 public class Application extends Controller {
 	@Before
@@ -74,9 +75,9 @@ public class Application extends Controller {
 		Partie partie = new Partie(connected(), partieModele, new Date(), nom);
 		partie.joueur1 = connected();
 		partie.create();
-
 		partie.initZones();
 		partie.refresh();
+		
 		Session.current().put("partieId", partie.id);
 		render("Application/selectionDeck.html", partie);
 	}
@@ -90,7 +91,10 @@ public class Application extends Controller {
 		}
 		Zone zoneBibliotheque = partie.getZone("Bibliotheque", connected());
 		PartieService.chargeBibliotheque(zoneDeck, zoneBibliotheque);
-
+		zoneBibliotheque.save();
+		PartieService.pioche(partie, connected(), 7);
+		partie.getZone("Main", connected()).save();
+		partie.getZone("Bibliotheque", connected()).save();
 		index();
 	}
 
@@ -142,12 +146,10 @@ public class Application extends Controller {
 		return (connected() != null && !partie.getZone("Deck", connected()).estVide());
 	}
 	
-
-	public static void say(String user, String message) {
-		Logger.info(user + " say " + message);
-		// ChatRoom.get(new Long(Session.current().get("partieId"))).say(user,
-		// message);
-		ChatRoom.get("main").say(connected().username, message);
+	public static void say(String message) {
+		if (message.trim().length() == 0) return;
+		Logger.info(connected().username + " dit " + message);
+		ChatRoom.get("main").publish(new Message(connected().username, message));
 	}
 	
 	public static void waitMessages(Long lastReceived) {
