@@ -1,6 +1,6 @@
 USER : ${_partie.getSoi()} USERNAME : ${_partie.getSoi().username} PartieNumJoueur : ${_partie.getNumero(true)}
 
-  <div class="line #{if soi} tour #{/if}">
+  <div class="line #{if _partie.getTour() != _partie.getNumero(true)} tour #{/if}">
     <div class="unit">
     #{infos partie : _partie, soi : false /}
   </div>
@@ -13,12 +13,13 @@ USER : ${_partie.getSoi()} USERNAME : ${_partie.getSoi().username} PartieNumJoue
   </div>
   </div>
   
-  <div class="line  #{if !soi} tour #{/if}">
+  <div class="line  #{if _partie.getTour() == _partie.getNumero(true)} tour #{/if}">
     <div class="unit">
     #{infos partie : _partie, soi : true /}
+    <a onclick="afficheOptions('Main_${_partie.getNumero(true)}', 0, 0);">Special</a>
+    
     </div>
     <div class="unit lastUnit champBataille ">
-      
       <div class="zoneJeu" style="position:relative;">
         #{list items:_partie.getZone("ChampBataille", true).getListeCarte(), as:'cm'}
           #{carteJeu carte : cm, zoneNom : "ChampBataille_Soi" /} 
@@ -26,7 +27,18 @@ USER : ${_partie.getSoi()} USERNAME : ${_partie.getSoi().username} PartieNumJoue
       </div>
     </div>
   </div>
-  <div class="line main"  onclick="afficheOptions('Main_${_partie.getNumero(true)}', 0, 0);">
+  <div class="line">
+    <input class="miniButton" #{if _partie.getTour() != _partie.getNumero(true) || _partie.getEtape() > 1}disabled="disabled" #{/if} type="submit" value="Upkeep" id="send" onclick="setEtape(2)">
+    <input class="miniButton" #{if _partie.getTour() != _partie.getNumero(true) || _partie.getEtape() > 2}disabled="disabled" #{/if} type="submit" value="Draw" id="send" onclick="setEtape(3)">
+    <input class="miniButton" #{if _partie.getTour() != _partie.getNumero(true) || _partie.getEtape() > 3}disabled="disabled" #{/if} type="submit" value="Main1" id="send" onclick="setEtape(4)">
+    <input class="miniButton" #{if _partie.getTour() != _partie.getNumero(true) || _partie.getEtape() > 4}disabled="disabled" #{/if} type="submit" value="Attack" id="send" onclick="setEtape(5)">
+    <input class="miniButton" #{if _partie.getTour() != _partie.getNumero(true) || _partie.getEtape() > 5}disabled="disabled" #{/if} type="submit" value="Defense" id="send" onclick="setEtape(6)">
+    <input class="miniButton" #{if _partie.getTour() != _partie.getNumero(true) || _partie.getEtape() > 6}disabled="disabled" #{/if} type="submit" value="Main2" id="send" onclick="setEtape(7)">
+    <input class="miniButton" #{if _partie.getTour() != _partie.getNumero(true) || _partie.getEtape() > 7}disabled="disabled" #{/if} type="submit" value="End" id="send" onclick="setEtape(8)">
+    <input class="miniButton" #{if _partie.getTour() != _partie.getNumero(true) || _partie.getEtape() > 8}disabled="disabled" #{/if} type="submit" value="Next turn" id="send" onclick="setEtape(1)">
+  </div>
+  
+  <div class="line main">
     <div class="zoneJeu">
       #{list items:_partie.getZone("Main", true).getListeCarte(), as:'cm'}
         #{carteJeu carte : cm, zoneNom : "Main_Soi" /}

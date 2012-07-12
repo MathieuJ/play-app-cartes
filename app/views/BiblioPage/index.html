@@ -2,13 +2,13 @@
 #{set title:'Home' /}
 
 
-<div class="line">
-  <div class="unit size3of4">
+<div class="line roundedDiv">
+  <div class="unit">
   #{list items:listeCarteModele, as:'cm'}
     #{carteTexte carte : cm /} 
   #{/list} 
   </div>
   <div class="unit size1of4 lastUnit">
-    #{grandeCarte /}
+    <div style="position:fixed;top:300px; left: 500px;"><img id="macarte" /></div>
   </div>
 </div>

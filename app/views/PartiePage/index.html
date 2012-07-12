@@ -10,7 +10,7 @@ var doActionGenerale = #{jsAction @actionGenerale(':nomAction', ':param1', ':par
 
 var waitMessages = #{jsAction @waitMessages(':lastReceived') /}
 var doUpdatePartie = #{jsAction  @updatePartie()  /}
-var say = #{jsAction @say(user) /}
+var say = #{jsAction @say() /}
 
 var soi = ${partie.getNumero(true)};
 var adversaire = ${partie.getNumero(false)};
@@ -21,7 +21,7 @@ var adversaire = ${partie.getNumero(false)};
 
 <div class="unit"  style="width:230px;">
   <div class="line">
-    #{grandeCarte /}
+    <img id="macarte" />
   </div>
   
   #{chatLongPolling /}
@@ -35,7 +35,7 @@ var adversaire = ${partie.getNumero(false)};
 
 </div>
 
-<div id="chat" class="roundedDiv" style="display:none">
+<div id="chat" class="roundedDiv">
   <div class="unit size1of2 lastUnit" style="height:200px; overflow:auto;">
     <div id="logs">&nbsp;</div>
   </div>

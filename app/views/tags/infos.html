@@ -13,12 +13,16 @@
   
   <div class="unit size1of2 lastUnit">
     <div class="line">
+    #{if _soi}
     <a onclick="afficheOptionsJoueurs(${_partie.getNumero(_soi)}, '${_partie.getJoueur(_soi).username}', ${_partie.getPointsVie(_soi)})">
+    #{/if}
     ${_partie.getJoueur(_soi).username}
     <div class="line">
     ${_partie.getPointsVie(_soi)} PV
     </div>
+    #{if _soi}
     </a>
+    #{/if}
     </div>
     <div class="line">
       Main : ${_partie.getZone('Main', _soi).getTaille()} cartes

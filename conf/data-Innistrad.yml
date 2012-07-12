@@ -1,1055 +1,1319 @@
 CarteModele(cm_1) :
+    extension : INN
     nom : Abbey Griffin
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/1.jpg
 
 CarteModele(cm_2) :
+    extension : INN
     nom : Angel of Flight Alabaster
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/2.jpg
 
 CarteModele(cm_3) :
+    extension : INN
     nom : Angelic Overseer
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/3.jpg
 
 CarteModele(cm_4) :
+    extension : INN
     nom : Avacynian Priest
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/4.jpg
 
 CarteModele(cm_5) :
+    extension : INN
     nom : Bonds of Faith
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/5.jpg
 
 CarteModele(cm_6) :
+    extension : INN
     nom : Champion of the Parish
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/6.jpg
 
 CarteModele(cm_7) :
+    extension : INN
     nom : Chapel Geist
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/7.jpg
 
 CarteModele(cm_8) :
+    extension : INN
     nom : Cloistered Youth
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/8a.jpg
 
 CarteModele(cm_9) :
+    extension : INN
     nom : Dearly Departed
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/9.jpg
 
 CarteModele(cm_10) :
+    extension : INN
     nom : Divine Reckoning
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/10.jpg
 
 CarteModele(cm_11) :
+    extension : INN
     nom : Doomed Traveler
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/11.jpg
 
 CarteModele(cm_12) :
+    extension : INN
     nom : Elder Cathar
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/12.jpg
 
 CarteModele(cm_13) :
+    extension : INN
     nom : Elite Inquisitor
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/13.jpg
 
 CarteModele(cm_14) :
+    extension : INN
     nom : Feeling of Dread
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/14.jpg
 
 CarteModele(cm_15) :
+    extension : INN
     nom : Fiend Hunter
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/15.jpg
 
 CarteModele(cm_16) :
+    extension : INN
     nom : Gallows Warden
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/16.jpg
 
 CarteModele(cm_17) :
+    extension : INN
     nom : Geist-Honored Monk
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/17.jpg
 
 CarteModele(cm_18) :
+    extension : INN
     nom : Ghostly Possession
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/18.jpg
 
 CarteModele(cm_19) :
+    extension : INN
     nom : Intangible Virtue
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/19.jpg
 
 CarteModele(cm_20) :
+    extension : INN
     nom : Mausoleum Guard
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/20.jpg
 
 CarteModele(cm_21) :
+    extension : INN
     nom : Mentor of the Meek
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/21.jpg
 
 CarteModele(cm_22) :
+    extension : INN
     nom : Midnight Haunting
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/22.jpg
 
 CarteModele(cm_23) :
+    extension : INN
     nom : Mikaeus, the Lunarch
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/23.jpg
 
 CarteModele(cm_24) :
+    extension : INN
     nom : Moment of Heroism
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/24.jpg
 
 CarteModele(cm_25) :
+    extension : INN
     nom : Nevermore
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/25.jpg
 
 CarteModele(cm_26) :
+    extension : INN
     nom : Paraselene
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/26.jpg
 
 CarteModele(cm_27) :
+    extension : INN
     nom : Purify the Grave
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/27.jpg
 
 CarteModele(cm_28) :
+    extension : INN
     nom : Rally the Peasants
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/28.jpg
 
 CarteModele(cm_29) :
+    extension : INN
     nom : Rebuke
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/29.jpg
 
 CarteModele(cm_30) :
+    extension : INN
     nom : Selfless Cathar
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/30.jpg
 
 CarteModele(cm_31) :
+    extension : INN
     nom : Silverchase Fox
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/31.jpg
 
 CarteModele(cm_32) :
+    extension : INN
     nom : Slayer of the Wicked
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/32.jpg
 
 CarteModele(cm_33) :
+    extension : INN
     nom : Smite the Monstrous
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/33.jpg
 
 CarteModele(cm_34) :
+    extension : INN
     nom : Spare from Evil
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/34.jpg
 
 CarteModele(cm_35) :
+    extension : INN
     nom : Spectral Rider
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/35.jpg
 
 CarteModele(cm_36) :
+    extension : INN
     nom : Stony Silence
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/36.jpg
 
 CarteModele(cm_37) :
+    extension : INN
     nom : Thraben Purebloods
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/37.jpg
 
 CarteModele(cm_38) :
+    extension : INN
     nom : Thraben Sentry
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/38a.jpg
 
 CarteModele(cm_39) :
+    extension : INN
     nom : Unruly Mob
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/39.jpg
 
 CarteModele(cm_40) :
+    extension : INN
     nom : Urgent Exorcism
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/40.jpg
 
 CarteModele(cm_41) :
+    extension : INN
     nom : Village Bell-Ringer
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/41.jpg
 
 CarteModele(cm_42) :
+    extension : INN
     nom : Voiceless Spirit
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/42.jpg
 
 CarteModele(cm_43) :
+    extension : INN
     nom : Armored Skaab
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/43.jpg
 
 CarteModele(cm_44) :
+    extension : INN
     nom : Back from the Brink
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/44.jpg
 
 CarteModele(cm_45) :
+    extension : INN
     nom : Battleground Geist
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/45.jpg
 
 CarteModele(cm_46) :
+    extension : INN
     nom : Cackling Counterpart
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/46.jpg
 
 CarteModele(cm_47) :
+    extension : INN
     nom : Civilized Scholar
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/47a.jpg
 
 CarteModele(cm_48) :
+    extension : INN
     nom : Claustrophobia
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/48.jpg
 
 CarteModele(cm_49) :
+    extension : INN
     nom : Curiosity
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/49.jpg
 
 CarteModele(cm_50) :
+    extension : INN
     nom : Curse of the Bloody Tome
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/50.jpg
 
 CarteModele(cm_51) :
+    extension : INN
     nom : Delver of Secrets
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/51a.jpg
 
 CarteModele(cm_52) :
+    extension : INN
     nom : Deranged Assistant
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/52.jpg
 
 CarteModele(cm_53) :
+    extension : INN
     nom : Dissipate
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/53.jpg
 
 CarteModele(cm_54) :
+    extension : INN
     nom : Dream Twist
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/54.jpg
 
 CarteModele(cm_55) :
+    extension : INN
     nom : Forbidden Alchemy
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/55.jpg
 
 CarteModele(cm_56) :
+    extension : INN
     nom : Fortress Crab
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/56.jpg
 
 CarteModele(cm_57) :
+    extension : INN
     nom : Frightful Delusion
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/57.jpg
 
 CarteModele(cm_58) :
+    extension : INN
     nom : Grasp of Phantoms
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/58.jpg
 
 CarteModele(cm_59) :
+    extension : INN
     nom : Hysterical Blindness
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/59.jpg
 
 CarteModele(cm_60) :
+    extension : INN
     nom : Invisible Stalker
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/60.jpg
 
 CarteModele(cm_61) :
+    extension : INN
     nom : Laboratory Maniac
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/61.jpg
 
 CarteModele(cm_62) :
+    extension : INN
     nom : Lantern Spirit
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/62.jpg
 
 CarteModele(cm_63) :
+    extension : INN
     nom : Lost in the Mist
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/63.jpg
 
 CarteModele(cm_64) :
+    extension : INN
     nom : Ludevic's Test Subject
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/64a.jpg
 
 CarteModele(cm_65) :
+    extension : INN
     nom : Makeshift Mauler
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/65.jpg
 
 CarteModele(cm_66) :
+    extension : INN
     nom : Memory's Journey
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/66.jpg
 
 CarteModele(cm_67) :
+    extension : INN
     nom : Mindshrieker
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/67.jpg
 
 CarteModele(cm_68) :
+    extension : INN
     nom : Mirror-Mad Phantasm
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/68.jpg
 
 CarteModele(cm_69) :
+    extension : INN
     nom : Moon Heron
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/69.jpg
 
 CarteModele(cm_70) :
+    extension : INN
     nom : Murder of Crows
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/70.jpg
 
 CarteModele(cm_71) :
+    extension : INN
     nom : Rooftop Storm
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/71.jpg
 
 CarteModele(cm_72) :
+    extension : INN
     nom : Runic Repetition
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/72.jpg
 
 CarteModele(cm_73) :
+    extension : INN
     nom : Selhoff Occultist
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/73.jpg
 
 CarteModele(cm_74) :
+    extension : INN
     nom : Sensory Deprivation
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/74.jpg
 
 CarteModele(cm_75) :
+    extension : INN
     nom : Silent Departure
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/75.jpg
 
 CarteModele(cm_76) :
+    extension : INN
     nom : Skaab Goliath
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/76.jpg
 
 CarteModele(cm_77) :
+    extension : INN
     nom : Skaab Ruinator
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/77.jpg
 
 CarteModele(cm_78) :
+    extension : INN
     nom : Snapcaster Mage
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/78.jpg
 
 CarteModele(cm_79) :
+    extension : INN
     nom : Spectral Flight
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/79.jpg
 
 CarteModele(cm_80) :
+    extension : INN
     nom : Stitched Drake
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/80.jpg
 
 CarteModele(cm_81) :
+    extension : INN
     nom : Stitcher's Apprentice
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/81.jpg
 
 CarteModele(cm_82) :
+    extension : INN
     nom : Sturmgeist
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/82.jpg
 
 CarteModele(cm_83) :
+    extension : INN
     nom : Think Twice
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/83.jpg
 
 CarteModele(cm_84) :
+    extension : INN
     nom : Undead Alchemist
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/84.jpg
 
 CarteModele(cm_85) :
+    extension : INN
     nom : Abattoir Ghoul
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/85.jpg
 
 CarteModele(cm_86) :
+    extension : INN
     nom : Altar's Reap
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/86.jpg
 
 CarteModele(cm_87) :
+    extension : INN
     nom : Army of the Damned
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/87.jpg
 
 CarteModele(cm_88) :
+    extension : INN
     nom : Bitterheart Witch
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/88.jpg
 
 CarteModele(cm_89) :
+    extension : INN
     nom : Bloodgift Demon
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/89.jpg
 
 CarteModele(cm_90) :
+    extension : INN
     nom : Bloodline Keeper
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/90a.jpg
 
 CarteModele(cm_91) :
+    extension : INN
     nom : Brain Weevil
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/91.jpg
 
 CarteModele(cm_92) :
+    extension : INN
     nom : Bump in the Night
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/92.jpg
 
 CarteModele(cm_93) :
+    extension : INN
     nom : Corpse Lunge
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/93.jpg
 
 CarteModele(cm_94) :
+    extension : INN
     nom : Curse of Death's Hold
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/94.jpg
 
 CarteModele(cm_95) :
+    extension : INN
     nom : Curse of Oblivion
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/95.jpg
 
 CarteModele(cm_96) :
+    extension : INN
     nom : Dead Weight
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/96.jpg
 
 CarteModele(cm_97) :
+    extension : INN
     nom : Diregraf Ghoul
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/97.jpg
 
 CarteModele(cm_98) :
+    extension : INN
     nom : Disciple of Griselbrand
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/98.jpg
 
 CarteModele(cm_99) :
+    extension : INN
     nom : Endless Ranks of the Dead
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/99.jpg
 
 CarteModele(cm_100) :
+    extension : INN
     nom : Falkenrath Noble
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/100.jpg
 
 CarteModele(cm_101) :
+    extension : INN
     nom : Ghoulcaller's Chant
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/101.jpg
 
 CarteModele(cm_102) :
+    extension : INN
     nom : Ghoulraiser
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/102.jpg
 
 CarteModele(cm_103) :
+    extension : INN
     nom : Gruesome Deformity
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/103.jpg
 
 CarteModele(cm_104) :
+    extension : INN
     nom : Heartless Summoning
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/104.jpg
 
 CarteModele(cm_105) :
+    extension : INN
     nom : Liliana of the Veil
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/105.jpg
 
 CarteModele(cm_106) :
+    extension : INN
     nom : Manor Skeleton
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/106.jpg
 
 CarteModele(cm_107) :
+    extension : INN
     nom : Markov Patrician
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/107.jpg
 
 CarteModele(cm_108) :
+    extension : INN
     nom : Maw of the Mire
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/108.jpg
 
 CarteModele(cm_109) :
+    extension : INN
     nom : Moan of the Unhallowed
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/109.jpg
 
 CarteModele(cm_110) :
+    extension : INN
     nom : Morkrut Banshee
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/110.jpg
 
 CarteModele(cm_111) :
+    extension : INN
     nom : Night Terrors
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/111.jpg
 
 CarteModele(cm_112) :
+    extension : INN
     nom : Reaper from the Abyss
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/112.jpg
 
 CarteModele(cm_113) :
+    extension : INN
     nom : Rotting Fensnake
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/113.jpg
 
 CarteModele(cm_114) :
+    extension : INN
     nom : Screeching Bat
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/114a.jpg
 
 CarteModele(cm_115) :
+    extension : INN
     nom : Sever the Bloodline
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/115.jpg
 
 CarteModele(cm_116) :
+    extension : INN
     nom : Skeletal Grimace
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/116.jpg
 
 CarteModele(cm_117) :
+    extension : INN
     nom : Skirsdag High Priest
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/117.jpg
 
 CarteModele(cm_118) :
+    extension : INN
     nom : Stromkirk Patrol
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/118.jpg
 
 CarteModele(cm_119) :
+    extension : INN
     nom : Tribute to Hunger
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/119.jpg
 
 CarteModele(cm_120) :
+    extension : INN
     nom : Typhoid Rats
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/120.jpg
 
 CarteModele(cm_121) :
+    extension : INN
     nom : Unbreathing Horde
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/121.jpg
 
 CarteModele(cm_122) :
+    extension : INN
     nom : Unburial Rites
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/122.jpg
 
 CarteModele(cm_123) :
+    extension : INN
     nom : Vampire Interloper
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/123.jpg
 
 CarteModele(cm_124) :
+    extension : INN
     nom : Victim of Night
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/124.jpg
 
 CarteModele(cm_125) :
+    extension : INN
     nom : Village Cannibals
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/125.jpg
 
 CarteModele(cm_126) :
+    extension : INN
     nom : Walking Corpse
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/126.jpg
 
 CarteModele(cm_127) :
+    extension : INN
     nom : Ancient Grudge
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/127.jpg
 
 CarteModele(cm_128) :
+    extension : INN
     nom : Ashmouth Hound
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/128.jpg
 
 CarteModele(cm_129) :
+    extension : INN
     nom : Balefire Dragon
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/129.jpg
 
 CarteModele(cm_130) :
+    extension : INN
     nom : Blasphemous Act
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/130.jpg
 
 CarteModele(cm_131) :
+    extension : INN
     nom : Bloodcrazed Neonate
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/131.jpg
 
 CarteModele(cm_132) :
+    extension : INN
     nom : Brimstone Volley
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/132.jpg
 
 CarteModele(cm_133) :
+    extension : INN
     nom : Burning Vengeance
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/133.jpg
 
 CarteModele(cm_134) :
+    extension : INN
     nom : Charmbreaker Devils
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/134.jpg
 
 CarteModele(cm_135) :
+    extension : INN
     nom : Crossway Vampire
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/135.jpg
 
 CarteModele(cm_136) :
+    extension : INN
     nom : Curse of Stalked Prey
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/136.jpg
 
 CarteModele(cm_137) :
+    extension : INN
     nom : Curse of the Nightly Hunt
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/137.jpg
 
 CarteModele(cm_138) :
+    extension : INN
     nom : Curse of the Pierced Heart
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/138.jpg
 
 CarteModele(cm_139) :
+    extension : INN
     nom : Desperate Ravings
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/139.jpg
 
 CarteModele(cm_140) :
+    extension : INN
     nom : Devil's Play
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/140.jpg
 
 CarteModele(cm_141) :
+    extension : INN
     nom : Falkenrath Marauders
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/141.jpg
 
 CarteModele(cm_142) :
+    extension : INN
     nom : Feral Ridgewolf
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/142.jpg
 
 CarteModele(cm_143) :
+    extension : INN
     nom : Furor of the Bitten
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/143.jpg
 
 CarteModele(cm_144) :
+    extension : INN
     nom : Geistflame
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/144.jpg
 
 CarteModele(cm_145) :
+    extension : INN
     nom : Hanweir Watchkeep
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/145a.jpg
 
 CarteModele(cm_146) :
+    extension : INN
     nom : Harvest Pyre
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/146.jpg
 
 CarteModele(cm_147) :
+    extension : INN
     nom : Heretic's Punishment
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/147.jpg
 
 CarteModele(cm_148) :
+    extension : INN
     nom : Infernal Plunge
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/148.jpg
 
 CarteModele(cm_149) :
+    extension : INN
     nom : Instigator Gang
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/149a.jpg
 
 CarteModele(cm_150) :
+    extension : INN
     nom : Into the Maw of Hell
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/150.jpg
 
 CarteModele(cm_151) :
+    extension : INN
     nom : Kessig Wolf
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/151.jpg
 
 CarteModele(cm_152) :
+    extension : INN
     nom : Kruin Outlaw
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/152a.jpg
 
 CarteModele(cm_153) :
+    extension : INN
     nom : Night Revelers
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/153.jpg
 
 CarteModele(cm_154) :
+    extension : INN
     nom : Nightbird's Clutches
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/154.jpg
 
 CarteModele(cm_155) :
+    extension : INN
     nom : Past in Flames
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/155.jpg
 
 CarteModele(cm_156) :
+    extension : INN
     nom : Pitchburn Devils
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/156.jpg
 
 CarteModele(cm_157) :
+    extension : INN
     nom : Rage Thrower
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/157.jpg
 
 CarteModele(cm_158) :
+    extension : INN
     nom : Rakish Heir
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/158.jpg
 
 CarteModele(cm_159) :
+    extension : INN
     nom : Reckless Waif
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/159a.jpg
 
 CarteModele(cm_160) :
+    extension : INN
     nom : Riot Devils
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/160.jpg
 
 CarteModele(cm_161) :
+    extension : INN
     nom : Rolling Temblor
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/161.jpg
 
 CarteModele(cm_162) :
+    extension : INN
     nom : Scourge of Geier Reach
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/162.jpg
 
 CarteModele(cm_163) :
+    extension : INN
     nom : Skirsdag Cultist
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/163.jpg
 
 CarteModele(cm_164) :
+    extension : INN
     nom : Stromkirk Noble
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/164.jpg
 
 CarteModele(cm_165) :
+    extension : INN
     nom : Tormented Pariah
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/165a.jpg
 
 CarteModele(cm_166) :
+    extension : INN
     nom : Traitorous Blood
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/166.jpg
 
 CarteModele(cm_167) :
+    extension : INN
     nom : Vampiric Fury
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/167.jpg
 
 CarteModele(cm_168) :
+    extension : INN
     nom : Village Ironsmith
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/168a.jpg
 
 CarteModele(cm_169) :
+    extension : INN
     nom : Ambush Viper
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/169.jpg
 
 CarteModele(cm_170) :
+    extension : INN
     nom : Avacyn's Pilgrim
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/170.jpg
 
 CarteModele(cm_171) :
+    extension : INN
     nom : Boneyard Wurm
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/171.jpg
 
 CarteModele(cm_172) :
+    extension : INN
     nom : Bramblecrush
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/172.jpg
 
 CarteModele(cm_173) :
+    extension : INN
     nom : Caravan Vigil
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/173.jpg
 
 CarteModele(cm_174) :
+    extension : INN
     nom : Creeping Renaissance
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/174.jpg
 
 CarteModele(cm_175) :
+    extension : INN
     nom : Darkthicket Wolf
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/175.jpg
 
 CarteModele(cm_176) :
+    extension : INN
     nom : Daybreak Ranger
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/176a.jpg
 
 CarteModele(cm_177) :
+    extension : INN
     nom : Elder of Laurels
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/177.jpg
 
 CarteModele(cm_178) :
+    extension : INN
     nom : Essence of the Wild
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/178.jpg
 
 CarteModele(cm_179) :
+    extension : INN
     nom : Festerhide Boar
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/179.jpg
 
 CarteModele(cm_180) :
+    extension : INN
     nom : Full Moon's Rise
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/180.jpg
 
 CarteModele(cm_181) :
+    extension : INN
     nom : Garruk Relentless
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/181a.jpg
 
 CarteModele(cm_182) :
+    extension : INN
     nom : Gatstaf Shepherd
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/182a.jpg
 
 CarteModele(cm_183) :
+    extension : INN
     nom : Gnaw to the Bone
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/183.jpg
 
 CarteModele(cm_184) :
+    extension : INN
     nom : Grave Bramble
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/184.jpg
 
 CarteModele(cm_185) :
+    extension : INN
     nom : Grizzled Outcasts
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/185a.jpg
 
 CarteModele(cm_186) :
+    extension : INN
     nom : Gutter Grime
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/186.jpg
 
 CarteModele(cm_187) :
+    extension : INN
     nom : Hamlet Captain
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/187.jpg
 
 CarteModele(cm_188) :
+    extension : INN
     nom : Hollowhenge Scavenger
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/188.jpg
 
 CarteModele(cm_189) :
+    extension : INN
     nom : Kessig Cagebreakers
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/189.jpg
 
 CarteModele(cm_190) :
+    extension : INN
     nom : Kindercatch
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/190.jpg
 
 CarteModele(cm_191) :
+    extension : INN
     nom : Lumberknot
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/191.jpg
 
 CarteModele(cm_192) :
+    extension : INN
     nom : Make a Wish
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/192.jpg
 
 CarteModele(cm_193) :
+    extension : INN
     nom : Mayor of Avabruck
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/193a.jpg
 
 CarteModele(cm_194) :
+    extension : INN
     nom : Moldgraf Monstrosity
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/194.jpg
 
 CarteModele(cm_195) :
+    extension : INN
     nom : Moonmist
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/195.jpg
 
 CarteModele(cm_196) :
+    extension : INN
     nom : Mulch
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/196.jpg
 
 CarteModele(cm_197) :
+    extension : INN
     nom : Naturalize
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/197.jpg
 
 CarteModele(cm_198) :
+    extension : INN
     nom : Orchard Spirit
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/198.jpg
 
 CarteModele(cm_199) :
+    extension : INN
     nom : Parallel Lives
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/199.jpg
 
 CarteModele(cm_200) :
+    extension : INN
     nom : Prey Upon
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/200.jpg
 
 CarteModele(cm_201) :
+    extension : INN
     nom : Ranger's Guile
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/201.jpg
 
 CarteModele(cm_202) :
+    extension : INN
     nom : Somberwald Spider
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/202.jpg
 
 CarteModele(cm_203) :
+    extension : INN
     nom : Spider Spawning
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/203.jpg
 
 CarteModele(cm_204) :
+    extension : INN
     nom : Spidery Grasp
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/204.jpg
 
 CarteModele(cm_205) :
+    extension : INN
     nom : Splinterfright
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/205.jpg
 
 CarteModele(cm_206) :
+    extension : INN
     nom : Travel Preparations
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/206.jpg
 
 CarteModele(cm_207) :
+    extension : INN
     nom : Tree of Redemption
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/207.jpg
 
 CarteModele(cm_208) :
+    extension : INN
     nom : Ulvenwald Mystics
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/208a.jpg
 
 CarteModele(cm_209) :
+    extension : INN
     nom : Villagers of Estwald
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/209a.jpg
 
 CarteModele(cm_210) :
+    extension : INN
     nom : Woodland Sleuth
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/210.jpg
 
 CarteModele(cm_211) :
+    extension : INN
     nom : Wreath of Geists
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/211.jpg
 
 CarteModele(cm_212) :
+    extension : INN
     nom : Evil Twin
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/212.jpg
 
 CarteModele(cm_213) :
+    extension : INN
     nom : Geist of Saint Traft
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/213.jpg
 
 CarteModele(cm_214) :
+    extension : INN
     nom : Grimgrin, Corpse-Born
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/214.jpg
 
 CarteModele(cm_215) :
+    extension : INN
     nom : Olivia Voldaren
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/215.jpg
 
 CarteModele(cm_216) :
+    extension : INN
     nom : Blazing Torch
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/216.jpg
 
 CarteModele(cm_217) :
+    extension : INN
     nom : Butcher's Cleaver
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/217.jpg
 
 CarteModele(cm_218) :
+    extension : INN
     nom : Cellar Door
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/218.jpg
 
 CarteModele(cm_219) :
+    extension : INN
     nom : Cobbled Wings
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/219.jpg
 
 CarteModele(cm_220) :
+    extension : INN
     nom : Creepy Doll
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/220.jpg
 
 CarteModele(cm_221) :
+    extension : INN
     nom : Demonmail Hauberk
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/221.jpg
 
 CarteModele(cm_222) :
+    extension : INN
     nom : Galvanic Juggernaut
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/222.jpg
 
 CarteModele(cm_223) :
+    extension : INN
     nom : Geistcatcher's Rig
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/223.jpg
 
 CarteModele(cm_224) :
+    extension : INN
     nom : Ghoulcaller's Bell
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/224.jpg
 
 CarteModele(cm_225) :
+    extension : INN
     nom : Graveyard Shovel
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/225.jpg
 
 CarteModele(cm_226) :
+    extension : INN
     nom : Grimoire of the Dead
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/226.jpg
 
 CarteModele(cm_227) :
+    extension : INN
     nom : Inquisitor's Flail
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/227.jpg
 
 CarteModele(cm_228) :
+    extension : INN
     nom : Manor Gargoyle
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/228.jpg
 
 CarteModele(cm_229) :
+    extension : INN
     nom : Mask of Avacyn
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/229.jpg
 
 CarteModele(cm_230) :
+    extension : INN
     nom : One-Eyed Scarecrow
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/230.jpg
 
 CarteModele(cm_231) :
+    extension : INN
     nom : Runechanter's Pike
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/231.jpg
 
 CarteModele(cm_232) :
+    extension : INN
     nom : Sharpened Pitchfork
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/232.jpg
 
 CarteModele(cm_233) :
+    extension : INN
     nom : Silver-Inlaid Dagger
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/233.jpg
 
 CarteModele(cm_234) :
+    extension : INN
     nom : Traveler's Amulet
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/234.jpg
 
 CarteModele(cm_235) :
+    extension : INN
     nom : Trepanation Blade
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/235.jpg
 
 CarteModele(cm_236) :
+    extension : INN
     nom : Witchbane Orb
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/236.jpg
 
 CarteModele(cm_237) :
+    extension : INN
     nom : Wooden Stake
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/237.jpg
 
 CarteModele(cm_238) :
+    extension : INN
     nom : Clifftop Retreat
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/238.jpg
 
 CarteModele(cm_239) :
+    extension : INN
     nom : Gavony Township
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/239.jpg
 
 CarteModele(cm_240) :
+    extension : INN
     nom : Ghost Quarter
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/240.jpg
 
 CarteModele(cm_241) :
+    extension : INN
     nom : Hinterland Harbor
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/241.jpg
 
 CarteModele(cm_242) :
+    extension : INN
     nom : Isolated Chapel
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/242.jpg
 
 CarteModele(cm_243) :
+    extension : INN
     nom : Kessig Wolf Run
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/243.jpg
 
 CarteModele(cm_244) :
+    extension : INN
     nom : Moorland Haunt
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/244.jpg
 
 CarteModele(cm_245) :
+    extension : INN
     nom : Nephalia Drownyard
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/245.jpg
 
 CarteModele(cm_246) :
+    extension : INN
     nom : Shimmering Grotto
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/246.jpg
 
 CarteModele(cm_247) :
+    extension : INN
     nom : Stensia Bloodhall
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/247.jpg
 
 CarteModele(cm_248) :
+    extension : INN
     nom : Sulfur Falls
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/248.jpg
 
 CarteModele(cm_249) :
+    extension : INN
     nom : Woodland Cemetery
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/249.jpg
 
 CarteModele(cm_250) :
+    extension : INN
     nom : Plains
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/250.jpg
 
 CarteModele(cm_251) :
+    extension : INN
     nom : Island
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/253.jpg
 
 CarteModele(cm_252) :
+    extension : INN
     nom : Swamp
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/256.jpg
 
 CarteModele(cm_253) :
+    extension : INN
     nom : Mountain
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/260.jpg
 
 CarteModele(cm_254) :
+    extension : INN
     nom : Forest
     imageUrl : http://magicsupremacy.com/images/cards/isd/en/normal/264.jpg
 
 CarteModele(cm_T1) :
+    extension : INN
     nom : Angel Token
     imageUrl : /public/images/cartes/angel.jpg
 
 CarteModele(cm_T2) :
+    extension : INN
     nom : Demon Token
     imageUrl : /public/images/cartes/demon.jpg
 
 CarteModele(cm_T3) :
+    extension : INN
     nom : Homonculus Token
     imageUrl : /public/images/cartes/homonculus.jpg
 
 CarteModele(cm_T4) :
+    extension : INN
     nom : Ooze Token
     imageUrl : /public/images/cartes/ooze.jpg
 
 CarteModele(cm_T5) :
+    extension : INN
     nom : Spider Token
     imageUrl : /public/images/cartes/spider.jpg
 
 CarteModele(cm_T6) :
+    extension : INN
     nom : Spirit Token
     imageUrl : /public/images/cartes/spirit.jpg
 
 CarteModele(cm_T7) :
+    extension : INN
     nom : Vampire Token
     imageUrl : /public/images/cartes/vampire.jpg
 
 CarteModele(cm_T8) :
+    extension : INN
     nom : Black Wolf Token
     imageUrl : /public/images/cartes/wolfB.jpg
 
 CarteModele(cm_T9) :
+    extension : INN
     nom : Green Wolf Token
     imageUrl : /public/images/cartes/wolfG.jpg
 
 CarteModele(cm_T10) :
+    extension : INN
     nom : Zombie Token
     imageUrl : /public/images/cartes/zombie.jpg

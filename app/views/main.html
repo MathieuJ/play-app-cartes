@@ -27,7 +27,7 @@
     <body>
       <div class="page">
         <div class="head roundedDiv">
-          <h2>Cartes !</h2>
+          <h2>#{a @Application.index()}Cartes !#{/a}</h2>
           #{if flash.success}
             <div class="ui-widget">
             <p class="ui-state-highlight ui-corner-all">
@@ -90,7 +90,7 @@
           <div class="roundedDiv ">
             
             <div class="line espaceSup5">
-              #{a @BiblioPage.index()}&{'bibliopage'}#{/a}
+              #{a @Application.index()}&{'accueil'}#{/a} #{a @BiblioPage.index()}&{'bibliopage'}#{/a}
             </div>
           </div>  
         </div>

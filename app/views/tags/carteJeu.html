@@ -1,11 +1,13 @@
 <div 
-  onClick="afficheOptionsCarte('${_zoneNom}', '${_carte.nom}', '${_carte.id}');event.stopPropagation()"
+  onClick = "onClickCarte('${_zoneNom}', '${_carte.nom}', '${_carte.id}', ${_carte.isTerrain()});"
+    
   onMouseOver="afficheCarte('${_carte.getImageUrl()}');"
   class="petiteCarte #{if _carte.isAttachee()}attachee#{/if} 
     #{if _carte.isEngagee()}engagee#{/if}"
    #{if _zoneNom.indexOf("ChampBataille") == 0}
     style="position:absolute;top:${_carte.getTop()}px;left:${_carte.getLeft()}px;"
    #{/if}
+   id="carte_${_carte.id}";
    >
    
   <img src='${_carte.getImageUrl()}' />

@@ -1,7 +1,6 @@
-﻿// FONCTIONS STABLES
+﻿// ************************ FONCTIONS STABLES
 function afficheCarte(url) {
   var objCible = document.getElementById('macarte');
-  //objCible.style.backgroundImage = 'url("' + url + '")';
   objCible.src = url;
 }
 
@@ -45,12 +44,12 @@ function afficheOptionsJoueurs(numJoueur, nomJoueur, pvJoueur) {
 function afficheOptionsToken() {
   $("#dialog").attr("title", "Créer un Token");
   $("#dialog").html(
-      '<SELECT id="selectToken" size="10">' + '<OPTION value="255">Angel'
-          + '<OPTION value="256">Demon' + '<OPTION value="257">Homonculus'
-          + '<OPTION value="258">Ooze' + '<OPTION value="259">Spider'
-          + '<OPTION value="260">Spirit' + '<OPTION value="261">Vampire'
-          + '<OPTION value="262">Black Wolf' + '<OPTION value="263">Green Wolf'
-          + '<OPTION value="264">Zombie' + '</SELECT>');
+      '<SELECT id="selectToken" size="10">' + '<OPTION value="Angel Token">Angel'
+          + '<OPTION value="Demon Token">Demon' + '<OPTION value="Homonculus Token">Homonculus'
+          + '<OPTION value="Ooze Token">Ooze' + '<OPTION value="Spider Token">Spider'
+          + '<OPTION value="Spirit Token">Spirit' + '<OPTION value="Vampire Token">Vampire'
+          + '<OPTION value="Black Wolf Token">Black Wolf' + '<OPTION value="Green Wolf Token">Green Wolf'
+          + '<OPTION value="Zombie Token">Zombie' + '</SELECT>');
   $("#dialog").dialog({
     resizable : false,
     modal : true,
@@ -67,6 +66,8 @@ function afficheOptionsToken() {
     }
   });
 }
+
+//************************ FIN FONCTIONS STABLES
 
 function afficheOptionsBibliotheque() {
   $("#dialog").attr("title", "Bibliothèque");
@@ -90,8 +91,7 @@ function afficheOptionsBibliotheque() {
   });
 }
 
-$(function() {
-
+/*$(function() {
   $("#test2").prettypiemenu({
     buttons : [ {
       img : "ui-icon-minus",
@@ -147,29 +147,59 @@ $(function() {
     });
     return false;
   });
-});
+});*/
+
+function demandeChiffreAction(titre, texte, action, min, max, value) {
+  $("#dialog")
+  .html(
+      '<p>' + texte + '<input readonly type="text" id="nbCartes" size=1 style="border:0; color:#f6931f; font-weight:bold;" /></p>'
+          + '<div id="slider-nbCartes"></div>');
+  $("#dialog").dialog({
+    title : titre,
+    height : 300,
+    width : 300,
+    resizable : false,
+    modal : true,
+    buttons : {
+      "Meuler" : function() {
+        actionGenerale(action, "true", $("#nbCartes").val());
+        $(this).dialog("close");
+      },
+      "Annuler" : function() {
+        $(this).dialog("close");
+      }
+    }
+  });
+  
+  $(function() {
+    $("#slider-nbCartes").slider({
+      range : "min",
+      value : value,
+      min : min,
+      max : max,
+      slide : function(event, ui) {
+        $("#nbCartes").val(ui.value);
+      }
+    });
+    $("#nbCartes").val($("#slider-nbCartes").slider("value"));
+  });
+}
 
 function afficheOptions(zone, x, y) {
   var dialogTitre;
-  var dialogHtml;
   var dialogBoutons = {};
 
   switch (zone) {
   case "Bibliotheque_" + soi:
     dialogTitre = "Bibliothèque";
-    dialogHtml = "";
     dialogBoutons = {
       "Piocher une carte" : function() {
         actionGenerale("pioche", "true", 1);
         $(this).dialog("close");
       },
-      "Piocher une main" : function() {
-        actionGenerale("pioche", "true", 7);
-        $(this).dialog("close");
-      },
       "Meuler X cartes" : function() {
-        actionGenerale("meule", "true", 5);
         $(this).dialog("close");
+        demandeChiffreAction("Meule", "Nombre de cartes à mettre du dessus de la bibliotheque au cimetiere : ", "meule", 1, 10, 1);
       },
       "Afficher la bibliothèque" : function() {
         $(this).dialog("close");
@@ -187,23 +217,15 @@ function afficheOptions(zone, x, y) {
     break;
   case "Bibliotheque_" + adversaire:
     dialogTitre = "Bibliothèque de l'adversaire";
-    dialogHtml = "";
     dialogBoutons = {
-      "Piocher une carte" : function() {
-        actionGenerale("pioche", "false", 1);
-        $(this).dialog("close");
-      },
-      "Meuler X cartes" : function() {
-        actionGenerale("meule", "false", 5);
-        $(this).dialog("close");
-      },
-      "Afficher la bibliothèque" : function() {
-      }
+        "Voir X cartes du dessus" : function() {
+          $(this).dialog("close");
+          afficheZoneEmpilee("Bibliotheque", "false", "top", 3);
+        }
     };
     break;
   case "Cimetiere_" + soi:
     dialogTitre = "Cimetière";
-    dialogHtml = "";
     dialogBoutons = {
       "Melanger dans la bibliothèque" : function() {
         actionGenerale("melange", "Cimetiere", "Bibliotheque", "true");
@@ -215,10 +237,27 @@ function afficheOptions(zone, x, y) {
       }
     };
     break;
+  case "Cimetiere_" + adversaire:
+    dialogTitre = "Cimetière";
+    dialogBoutons = {
+      "Afficher le cimetiere" : function() {
+        $(this).dialog("close");
+        afficheZoneEmpilee("Cimetiere", "true", "tout");
+      }
+    };
+    break;
+  case "Exil_" + soi:
+    dialogTitre = "Exil";
+    dialogBoutons = {
+      "Afficher l'exil" : function() {
+        $(this).dialog("close");
+        afficheZoneEmpilee("Exil", "true", "tout");
+      }
+    };
+    break;
   case "Main_1":
   case "Main_2":
     dialogTitre = "Jeu";
-    dialogHtml = "";
     dialogBoutons = {
       "Degager tout" : function() {
         actionGenerale("degageTout", "true");
@@ -228,12 +267,10 @@ function afficheOptions(zone, x, y) {
         $(this).dialog("close");
         afficheOptionsToken();
       },
-
-      "Fin de tour" : function() {
-        actionGenerale("prochaineEtape", 0);
+      "Mulliganer" : function() {
+        actionGenerale("mulligan");
         $(this).dialog("close");
       },
-
       "Redemarrer" : function() {
         actionGenerale("reset");
         $(this).dialog("close");
@@ -245,11 +282,11 @@ function afficheOptions(zone, x, y) {
   dialogBoutons['Annuler'] = function() {
     $(this).dialog("close");
   };
-
+  $("#dialog").html("");
   $("#dialog").dialog({
     title : dialogTitre,
-    html : dialogHtml,
     height : undefined,
+    position : "center",
     width : undefined,
     resizable : false,
     modal : true,
@@ -257,13 +294,31 @@ function afficheOptions(zone, x, y) {
   });
 }
 
-function afficheChiffre(action, min, max, defaut) {
-  /*
-   * $("#dialog").attr("title", action); $("#dialog").html(dialogHtml);
-   * $("#dialog").dialog({ resizable : false, modal : true, buttons :
-   * dialogBoutons });
-   */
+function proposeUntapDraw() {
+  dialogTitre = "Votre tour ";
+  dialogBoutons = {
+    "Dégager et aller à l'etape d'entretien" : function() {
+      actionGenerale('goUpkeep');
+      $(this).dialog("close");
+    },
+    "Dégager, piocher et aller à l'étape principale" : function() {
+      actionGenerale('goMain');
+      $(this).dialog("close");
+    }
+  }
+  $("#dialog").html("");
+  $("#dialog").dialog({
+    title : dialogTitre,
+    position : "center",
+    resizable : false,
+    height : undefined,
+    width : undefined,
+    modal : true,
+    buttons : dialogBoutons
+  });
 }
+
+
 function afficheZoneEmpilee(zone, soi, type, nombre) {
   var loadZoneUrl = loadZoneAction({
     zoneNom : zone,
@@ -278,6 +333,7 @@ function afficheZoneEmpilee(zone, soi, type, nombre) {
     $("#dialog").dialog({
       title : zone,
       html : data,
+      position : "center",
       resizable : false,
       height : 400,
       width : 600,
@@ -288,7 +344,6 @@ function afficheZoneEmpilee(zone, soi, type, nombre) {
           var selection = [];
           $.each($("#dialog > .selectionnee"), function(index, value) {
             selection.push(value.id);
-            // alert(index + '_' + value + '_' + value.id);
           });
           actionGenerale('deplacePaquet', zone, "ChampBataille", selection);
           $(this).dialog("close");
@@ -297,9 +352,16 @@ function afficheZoneEmpilee(zone, soi, type, nombre) {
           var selection = [];
           $.each($("#dialog > .selectionnee"), function(index, value) {
             selection.push(value.id);
-            // alert(index + '_' + value + '_' + value.id);
           });
           actionGenerale('deplacePaquet', zone, "Main", selection);
+          $(this).dialog("close");
+        },
+        "Exiler" : function() {
+          var selection = [];
+          $.each($("#dialog > .selectionnee"), function(index, value) {
+            selection.push(value.id);
+          });
+          actionGenerale('deplacePaquet', zone, "Exil", selection);
           $(this).dialog("close");
         },
         "Annuler" : function() {
@@ -311,45 +373,39 @@ function afficheZoneEmpilee(zone, soi, type, nombre) {
   });
 }
 
+function setEtape(etape){
+  actionGenerale('setEtape', etape);
+}
+
+var modeSelection = false;
+var carteAAttacherId;
+
 function afficheOptionsCarte(zone, carteNom, carteId) {
+  if (modeSelection) {
+    modeSelection = false;
+    actionGenerale('attache', carteAAttacherId, carteId);
+    return;
+  }
   var dialogTitre;
-  var dialogHtml;
   var dialogBoutons = {};
 
   switch (zone) {
   case "Main_Soi":
     dialogTitre = "Carte : " + carteNom
-    dialogHtml = "";
     dialogBoutons = {
       "Jouer" : function() {
         actionGenerale('deplace', carteId, "Main", "ChampBataille");
         $(this).dialog("close");
       },
-      "Attacher" : function() {
-        actionGenerale('attache', carteId, zone);
-        $(this).dialog("close");
-      },
       "Défausser" : function() {
         actionGenerale('deplace', carteId, "Main", "Cimetiere");
-        $(this).dialog("close");
-      },
-      "Spécial" : function() {
         $(this).dialog("close");
       }
     }
     break;
   case "ChampBataille_Soi":
     dialogTitre = "Carte : " + carteNom;
-    dialogHtml = "";
-    dialogBoutons = {
-      "Engager : Utiliser une capacité" : function() {
-        actionGenerale('engagecapacite', carteId);
-        $(this).dialog("close");
-      },
-      "Utiliser une capacité" : function() {
-        actionGenerale('capacite', carteId);
-        $(this).dialog("close");
-      },
+   dialogBoutons = {
       "Engager / Degager" : function() {
         actionGenerale('attaque', carteId);
         $(this).dialog("close");
@@ -362,15 +418,24 @@ function afficheOptionsCarte(zone, carteNom, carteId) {
         actionGenerale('deplace', carteId, "ChampBataille", "Cimetiere");
         $(this).dialog("close");
       },
+      "Attacher" : function() {
+        modeSelection = true;
+        carteAAttacherId = carteId;
+        $(this).dialog("close");
+        alert("Cliquez sur la carte cible");
+      },
+      "Detacher" : function() {
+        modeSelection = true;
+        carteAAttacherId = carteId;
+        $(this).dialog("close");
+        alert("Cliquez sur la carte cible");
+      },
       "Renvoie en main" : function() {
         actionGenerale('deplace', carteId, "ChampBataille", "Main");
         $(this).dialog("close");
       },
       "Transforme" : function() {
         actionGenerale('transforme', carteId);
-        $(this).dialog("close");
-      },
-      "Spécial..." : function() {
         $(this).dialog("close");
       }
     }
@@ -380,16 +445,25 @@ function afficheOptionsCarte(zone, carteNom, carteId) {
   dialogBoutons['Annuler'] = function() {
     $(this).dialog("close");
   };
-
+  $("#dialog").html("");
   $("#dialog").dialog({
     title : dialogTitre,
-    html : dialogHtml,
+    position : "center",
     resizable : false,
     height : undefined,
     width : undefined,
     modal : true,
     buttons : dialogBoutons
   });
+}
+
+function onClickCarte(zoneNom, carteNom, carteId, isTerrain){
+  if (isTerrain && (zoneNom == 'ChampBataille_Soi')) {
+    actionGenerale('engageOuDegage', carteId);
+    getMessage();
+  } else {
+    afficheOptionsCarte(zoneNom, carteNom, carteId);
+  }
 }
 
 function actionGenerale(nomAction, param1, param2, param3, param4) {
@@ -445,6 +519,13 @@ function getMessages() {
         display(this.data);
         lastReceived = this.id;
         update = (this.data.type == 'actionGenerale');
+        /*alert(this.data.type);
+        if (this.data.type == 'engage') {
+          alert("hop");
+          ${"#carte_" + this.data.carteId}.addClass("engagee")
+        } else if (this.data.type == 'degage') {
+          ${"#carte_" + this.data.carteId}.removeClass("engagee")
+        } */
       })
       $('#logs').prepend("done!<BR/>");
       if (update)

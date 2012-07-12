@@ -1,0 +1,1282 @@
+CarteModele(cm12_1) :
+    extension : M12
+    nom : Aegis Angel
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/1.jpg
+
+CarteModele(cm12_2) :
+    extension : M12
+    nom : Alabaster Mage
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/2.jpg
+
+CarteModele(cm12_3) :
+    extension : M12
+    nom : Angel's Mercy
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/3.jpg
+
+CarteModele(cm12_4) :
+    extension : M12
+    nom : Angelic Destiny
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/4.jpg
+
+CarteModele(cm12_5) :
+    extension : M12
+    nom : Arbalest Elite
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/5.jpg
+
+CarteModele(cm12_6) :
+    extension : M12
+    nom : Archon of Justice
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/6.jpg
+
+CarteModele(cm12_7) :
+    extension : M12
+    nom : Armored Warhorse
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/7.jpg
+
+CarteModele(cm12_8) :
+    extension : M12
+    nom : Assault Griffin
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/8.jpg
+
+CarteModele(cm12_9) :
+    extension : M12
+    nom : Auramancer
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/9.jpg
+
+CarteModele(cm12_10) :
+    extension : M12
+    nom : Benalish Veteran
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/10.jpg
+
+CarteModele(cm12_11) :
+    extension : M12
+    nom : Celestial Purge
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/11.jpg
+
+CarteModele(cm12_12) :
+    extension : M12
+    nom : Day of Judgment
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/12.jpg
+
+CarteModele(cm12_13) :
+    extension : M12
+    nom : Demystify
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/13.jpg
+
+CarteModele(cm12_14) :
+    extension : M12
+    nom : Divine Favor
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/14.jpg
+
+CarteModele(cm12_15) :
+    extension : M12
+    nom : Elite Vanguard
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/15.jpg
+
+CarteModele(cm12_16) :
+    extension : M12
+    nom : Gideon Jura
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/16.jpg
+
+CarteModele(cm12_17) :
+    extension : M12
+    nom : Gideon's Avenger
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/17.jpg
+
+CarteModele(cm12_18) :
+    extension : M12
+    nom : Gideon's Lawkeeper
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/18.jpg
+
+CarteModele(cm12_19) :
+    extension : M12
+    nom : Grand Abolisher
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/19.jpg
+
+CarteModele(cm12_20) :
+    extension : M12
+    nom : Griffin Rider
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/20.jpg
+
+CarteModele(cm12_21) :
+    extension : M12
+    nom : Griffin Sentinel
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/21.jpg
+
+CarteModele(cm12_22) :
+    extension : M12
+    nom : Guardians' Pledge
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/22.jpg
+
+CarteModele(cm12_23) :
+    extension : M12
+    nom : Honor of the Pure
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/23.jpg
+
+CarteModele(cm12_24) :
+    extension : M12
+    nom : Lifelink
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/24.jpg
+
+CarteModele(cm12_25) :
+    extension : M12
+    nom : Mesa Enchantress
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/25.jpg
+
+CarteModele(cm12_26) :
+    extension : M12
+    nom : Mighty Leap
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/26.jpg
+
+CarteModele(cm12_27) :
+    extension : M12
+    nom : Oblivion Ring
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/27.jpg
+
+CarteModele(cm12_28) :
+    extension : M12
+    nom : Pacifism
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/28.jpg
+
+CarteModele(cm12_29) :
+    extension : M12
+    nom : Peregrine Griffin
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/29.jpg
+
+CarteModele(cm12_30) :
+    extension : M12
+    nom : Personal Sanctuary
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/30.jpg
+
+CarteModele(cm12_31) :
+    extension : M12
+    nom : Pride Guardian
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/31.jpg
+
+CarteModele(cm12_32) :
+    extension : M12
+    nom : Roc Egg
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/32.jpg
+
+CarteModele(cm12_33) :
+    extension : M12
+    nom : Serra Angel
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/33.jpg
+
+CarteModele(cm12_34) :
+    extension : M12
+    nom : Siege Mastodon
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/34.jpg
+
+CarteModele(cm12_35) :
+    extension : M12
+    nom : Spirit Mantle
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/35.jpg
+
+CarteModele(cm12_36) :
+    extension : M12
+    nom : Stave Off
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/36.jpg
+
+CarteModele(cm12_37) :
+    extension : M12
+    nom : Stonehorn Dignitary
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/37.jpg
+
+CarteModele(cm12_38) :
+    extension : M12
+    nom : Stormfront Pegasus
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/38.jpg
+
+CarteModele(cm12_39) :
+    extension : M12
+    nom : Sun Titan
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/39.jpg
+
+CarteModele(cm12_40) :
+    extension : M12
+    nom : Timely Reinforcements
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/40.jpg
+
+CarteModele(cm12_41) :
+    extension : M12
+    nom : Ã†ther Adept
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/41.jpg
+
+CarteModele(cm12_42) :
+    extension : M12
+    nom : Alluring Siren
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/42.jpg
+
+CarteModele(cm12_43) :
+    extension : M12
+    nom : Amphin Cutthroat
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/43.jpg
+
+CarteModele(cm12_44) :
+    extension : M12
+    nom : Aven Fleetwing
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/44.jpg
+
+CarteModele(cm12_45) :
+    extension : M12
+    nom : Azure Mage
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/45.jpg
+
+CarteModele(cm12_46) :
+    extension : M12
+    nom : Belltower Sphinx
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/46.jpg
+
+CarteModele(cm12_47) :
+    extension : M12
+    nom : Cancel
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/47.jpg
+
+CarteModele(cm12_48) :
+    extension : M12
+    nom : Chasm Drake
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/48.jpg
+
+CarteModele(cm12_49) :
+    extension : M12
+    nom : Coral Merfolk
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/49.jpg
+
+CarteModele(cm12_50) :
+    extension : M12
+    nom : Divination
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/50.jpg
+
+CarteModele(cm12_51) :
+    extension : M12
+    nom : Djinn of Wishes
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/51.jpg
+
+CarteModele(cm12_52) :
+    extension : M12
+    nom : Flashfreeze
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/52.jpg
+
+CarteModele(cm12_53) :
+    extension : M12
+    nom : Flight
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/53.jpg
+
+CarteModele(cm12_54) :
+    extension : M12
+    nom : Frost Breath
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/54.jpg
+
+CarteModele(cm12_55) :
+    extension : M12
+    nom : Frost Titan
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/55.jpg
+
+CarteModele(cm12_56) :
+    extension : M12
+    nom : Harbor Serpent
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/56.jpg
+
+CarteModele(cm12_57) :
+    extension : M12
+    nom : Ice Cage
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/57.jpg
+
+CarteModele(cm12_58) :
+    extension : M12
+    nom : Jace, Memory Adept
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/58.jpg
+
+CarteModele(cm12_59) :
+    extension : M12
+    nom : Jace's Archivist
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/59.jpg
+
+CarteModele(cm12_60) :
+    extension : M12
+    nom : Jace's Erasure
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/60.jpg
+
+CarteModele(cm12_61) :
+    extension : M12
+    nom : Levitation
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/61.jpg
+
+CarteModele(cm12_62) :
+    extension : M12
+    nom : Lord of the Unreal
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/62.jpg
+
+CarteModele(cm12_63) :
+    extension : M12
+    nom : Mana Leak
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/63.jpg
+
+CarteModele(cm12_64) :
+    extension : M12
+    nom : Master Thief
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/64.jpg
+
+CarteModele(cm12_65) :
+    extension : M12
+    nom : Merfolk Looter
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/65.jpg
+
+CarteModele(cm12_66) :
+    extension : M12
+    nom : Merfolk Mesmerist
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/66.jpg
+
+CarteModele(cm12_67) :
+    extension : M12
+    nom : Mind Control
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/67.jpg
+
+CarteModele(cm12_68) :
+    extension : M12
+    nom : Mind Unbound
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/68.jpg
+
+CarteModele(cm12_69) :
+    extension : M12
+    nom : Negate
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/69.jpg
+
+CarteModele(cm12_70) :
+    extension : M12
+    nom : Phantasmal Bear
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/70.jpg
+
+CarteModele(cm12_71) :
+    extension : M12
+    nom : Phantasmal Dragon
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/71.jpg
+
+CarteModele(cm12_72) :
+    extension : M12
+    nom : Phantasmal Image
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/72.jpg
+
+CarteModele(cm12_73) :
+    extension : M12
+    nom : Ponder
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/73.jpg
+
+CarteModele(cm12_74) :
+    extension : M12
+    nom : Redirect
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/74.jpg
+
+CarteModele(cm12_75) :
+    extension : M12
+    nom : Skywinder Drake
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/75.jpg
+
+CarteModele(cm12_76) :
+    extension : M12
+    nom : Sphinx of Uthuun
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/76.jpg
+
+CarteModele(cm12_77) :
+    extension : M12
+    nom : Time Reversal
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/77.jpg
+
+CarteModele(cm12_78) :
+    extension : M12
+    nom : Turn to Frog
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/78.jpg
+
+CarteModele(cm12_79) :
+    extension : M12
+    nom : Unsummon
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/79.jpg
+
+CarteModele(cm12_80) :
+    extension : M12
+    nom : Visions of Beyond
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/80.jpg
+
+CarteModele(cm12_81) :
+    extension : M12
+    nom : Blood Seeker
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/81.jpg
+
+CarteModele(cm12_82) :
+    extension : M12
+    nom : Bloodlord of Vaasgoth
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/82.jpg
+
+CarteModele(cm12_83) :
+    extension : M12
+    nom : Bloodrage Vampire
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/83.jpg
+
+CarteModele(cm12_84) :
+    extension : M12
+    nom : Brink of Disaster
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/84.jpg
+
+CarteModele(cm12_85) :
+    extension : M12
+    nom : Call to the Grave
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/85.jpg
+
+CarteModele(cm12_86) :
+    extension : M12
+    nom : Cemetery Reaper
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/86.jpg
+
+CarteModele(cm12_87) :
+    extension : M12
+    nom : Child of Night
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/87.jpg
+
+CarteModele(cm12_88) :
+    extension : M12
+    nom : Consume Spirit
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/88.jpg
+
+CarteModele(cm12_89) :
+    extension : M12
+    nom : Dark Favor
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/89.jpg
+
+CarteModele(cm12_90) :
+    extension : M12
+    nom : Deathmark
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/90.jpg
+
+CarteModele(cm12_91) :
+    extension : M12
+    nom : Devouring Swarm
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/91.jpg
+
+CarteModele(cm12_92) :
+    extension : M12
+    nom : Diabolic Tutor
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/92.jpg
+
+CarteModele(cm12_93) :
+    extension : M12
+    nom : Disentomb
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/93.jpg
+
+CarteModele(cm12_94) :
+    extension : M12
+    nom : Distress
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/94.jpg
+
+CarteModele(cm12_95) :
+    extension : M12
+    nom : Doom Blade
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/95.jpg
+
+CarteModele(cm12_96) :
+    extension : M12
+    nom : Drifting Shade
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/96.jpg
+
+CarteModele(cm12_97) :
+    extension : M12
+    nom : Duskhunter Bat
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/97.jpg
+
+CarteModele(cm12_98) :
+    extension : M12
+    nom : Grave Titan
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/98.jpg
+
+CarteModele(cm12_99) :
+    extension : M12
+    nom : Gravedigger
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/99.jpg
+
+CarteModele(cm12_100) :
+    extension : M12
+    nom : Hideous Visage
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/100.jpg
+
+CarteModele(cm12_101) :
+    extension : M12
+    nom : Mind Rot
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/101.jpg
+
+CarteModele(cm12_102) :
+    extension : M12
+    nom : Monomania
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/102.jpg
+
+CarteModele(cm12_103) :
+    extension : M12
+    nom : Onyx Mage
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/103.jpg
+
+CarteModele(cm12_104) :
+    extension : M12
+    nom : Reassembling Skeleton
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/104.jpg
+
+CarteModele(cm12_105) :
+    extension : M12
+    nom : Royal Assassin
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/105.jpg
+
+CarteModele(cm12_106) :
+    extension : M12
+    nom : Rune-Scarred Demon
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/106.jpg
+
+CarteModele(cm12_107) :
+    extension : M12
+    nom : Sengir Vampire
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/107.jpg
+
+CarteModele(cm12_108) :
+    extension : M12
+    nom : Smallpox
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/108.jpg
+
+CarteModele(cm12_109) :
+    extension : M12
+    nom : Sorin Markov
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/109.jpg
+
+CarteModele(cm12_110) :
+    extension : M12
+    nom : Sorin's Thirst
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/110.jpg
+
+CarteModele(cm12_111) :
+    extension : M12
+    nom : Sorin's Vengeance
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/111.jpg
+
+CarteModele(cm12_112) :
+    extension : M12
+    nom : Sutured Ghoul
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/112.jpg
+
+CarteModele(cm12_113) :
+    extension : M12
+    nom : Taste of Blood
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/113.jpg
+
+CarteModele(cm12_114) :
+    extension : M12
+    nom : Tormented Soul
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/114.jpg
+
+CarteModele(cm12_115) :
+    extension : M12
+    nom : Vampire Outcasts
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/115.jpg
+
+CarteModele(cm12_116) :
+    extension : M12
+    nom : Vengeful Pharaoh
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/116.jpg
+
+CarteModele(cm12_117) :
+    extension : M12
+    nom : Warpath Ghoul
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/117.jpg
+
+CarteModele(cm12_118) :
+    extension : M12
+    nom : Wring Flesh
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/118.jpg
+
+CarteModele(cm12_119) :
+    extension : M12
+    nom : Zombie Goliath
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/119.jpg
+
+CarteModele(cm12_120) :
+    extension : M12
+    nom : Zombie Infestation
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/120.jpg
+
+CarteModele(cm12_121) :
+    extension : M12
+    nom : Act of Treason
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/121.jpg
+
+CarteModele(cm12_122) :
+    extension : M12
+    nom : Blood Ogre
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/122.jpg
+
+CarteModele(cm12_123) :
+    extension : M12
+    nom : Bonebreaker Giant
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/123.jpg
+
+CarteModele(cm12_124) :
+    extension : M12
+    nom : Chandra, the Firebrand
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/124.jpg
+
+CarteModele(cm12_125) :
+    extension : M12
+    nom : Chandra's Outrage
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/125.jpg
+
+CarteModele(cm12_126) :
+    extension : M12
+    nom : Chandra's Phoenix
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/126.jpg
+
+CarteModele(cm12_127) :
+    extension : M12
+    nom : Circle of Flame
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/127.jpg
+
+CarteModele(cm12_128) :
+    extension : M12
+    nom : Combust
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/128.jpg
+
+CarteModele(cm12_129) :
+    extension : M12
+    nom : Crimson Mage
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/129.jpg
+
+CarteModele(cm12_130) :
+    extension : M12
+    nom : Fiery Hellhound
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/130.jpg
+
+CarteModele(cm12_131) :
+    extension : M12
+    nom : Fireball
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/131.jpg
+
+CarteModele(cm12_132) :
+    extension : M12
+    nom : Firebreathing
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/132.jpg
+
+CarteModele(cm12_133) :
+    extension : M12
+    nom : Flameblast Dragon
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/133.jpg
+
+CarteModele(cm12_134) :
+    extension : M12
+    nom : Fling
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/134.jpg
+
+CarteModele(cm12_135) :
+    extension : M12
+    nom : Furyborn Hellkite
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/135.jpg
+
+CarteModele(cm12_136) :
+    extension : M12
+    nom : Goblin Arsonist
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/136.jpg
+
+CarteModele(cm12_137) :
+    extension : M12
+    nom : Goblin Bangchuckers
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/137.jpg
+
+CarteModele(cm12_138) :
+    extension : M12
+    nom : Goblin Chieftain
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/138.jpg
+
+CarteModele(cm12_139) :
+    extension : M12
+    nom : Goblin Fireslinger
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/139.jpg
+
+CarteModele(cm12_140) :
+    extension : M12
+    nom : Goblin Grenade
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/140.jpg
+
+CarteModele(cm12_141) :
+    extension : M12
+    nom : Goblin Piker
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/141.jpg
+
+CarteModele(cm12_142) :
+    extension : M12
+    nom : Goblin Tunneler
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/142.jpg
+
+CarteModele(cm12_143) :
+    extension : M12
+    nom : Goblin War Paint
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/143.jpg
+
+CarteModele(cm12_144) :
+    extension : M12
+    nom : Gorehorn Minotaurs
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/144.jpg
+
+CarteModele(cm12_145) :
+    extension : M12
+    nom : Grim Lavamancer
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/145.jpg
+
+CarteModele(cm12_146) :
+    extension : M12
+    nom : Incinerate
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/146.jpg
+
+CarteModele(cm12_147) :
+    extension : M12
+    nom : Inferno Titan
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/147.jpg
+
+CarteModele(cm12_148) :
+    extension : M12
+    nom : Lava Axe
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/148.jpg
+
+CarteModele(cm12_149) :
+    extension : M12
+    nom : Manabarbs
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/149.jpg
+
+CarteModele(cm12_150) :
+    extension : M12
+    nom : Manic Vandal
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/150.jpg
+
+CarteModele(cm12_151) :
+    extension : M12
+    nom : Reverberate
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/151.jpg
+
+CarteModele(cm12_152) :
+    extension : M12
+    nom : Scrambleverse
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/152.jpg
+
+CarteModele(cm12_153) :
+    extension : M12
+    nom : Shock
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/153.jpg
+
+CarteModele(cm12_154) :
+    extension : M12
+    nom : Slaughter Cry
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/154.jpg
+
+CarteModele(cm12_155) :
+    extension : M12
+    nom : Stormblood Berserker
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/155.jpg
+
+CarteModele(cm12_156) :
+    extension : M12
+    nom : Tectonic Rift
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/156.jpg
+
+CarteModele(cm12_157) :
+    extension : M12
+    nom : Volcanic Dragon
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/157.jpg
+
+CarteModele(cm12_158) :
+    extension : M12
+    nom : Wall of Torches
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/158.jpg
+
+CarteModele(cm12_159) :
+    extension : M12
+    nom : Lightning Elemental
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/159.jpg
+
+CarteModele(cm12_160) :
+    extension : M12
+    nom : Warstorm Surge
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/160.jpg
+
+CarteModele(cm12_161) :
+    extension : M12
+    nom : Acidic Slime
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/161.jpg
+
+CarteModele(cm12_162) :
+    extension : M12
+    nom : Arachnus Spinner
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/162.jpg
+
+CarteModele(cm12_163) :
+    extension : M12
+    nom : Arachnus Web
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/163.jpg
+
+CarteModele(cm12_164) :
+    extension : M12
+    nom : Autumn's Veil
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/164.jpg
+
+CarteModele(cm12_165) :
+    extension : M12
+    nom : Birds of Paradise
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/165.jpg
+
+CarteModele(cm12_166) :
+    extension : M12
+    nom : Bountiful Harvest
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/166.jpg
+
+CarteModele(cm12_167) :
+    extension : M12
+    nom : Brindle Boar
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/167.jpg
+
+CarteModele(cm12_168) :
+    extension : M12
+    nom : Carnage Wurm
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/168.jpg
+
+CarteModele(cm12_169) :
+    extension : M12
+    nom : Cudgel Troll
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/169.jpg
+
+CarteModele(cm12_170) :
+    extension : M12
+    nom : Doubling Chant
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/170.jpg
+
+CarteModele(cm12_171) :
+    extension : M12
+    nom : Dungrove Elder
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/171.jpg
+
+CarteModele(cm12_172) :
+    extension : M12
+    nom : Elvish Archdruid
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/172.jpg
+
+CarteModele(cm12_173) :
+    extension : M12
+    nom : Fog
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/173.jpg
+
+CarteModele(cm12_174) :
+    extension : M12
+    nom : Garruk, Primal Hunter
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/174.jpg
+
+CarteModele(cm12_175) :
+    extension : M12
+    nom : Garruk's Companion
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/175.jpg
+
+CarteModele(cm12_176) :
+    extension : M12
+    nom : Garruk's Horde
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/176.jpg
+
+CarteModele(cm12_177) :
+    extension : M12
+    nom : Giant Spider
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/177.jpg
+
+CarteModele(cm12_178) :
+    extension : M12
+    nom : Gladecover Scout
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/178.jpg
+
+CarteModele(cm12_179) :
+    extension : M12
+    nom : Greater Basilisk
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/179.jpg
+
+CarteModele(cm12_180) :
+    extension : M12
+    nom : Hunter's Insight
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/180.jpg
+
+CarteModele(cm12_181) :
+    extension : M12
+    nom : Jade Mage
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/181.jpg
+
+CarteModele(cm12_182) :
+    extension : M12
+    nom : Llanowar Elves
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/182.jpg
+
+CarteModele(cm12_183) :
+    extension : M12
+    nom : Lure
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/183.jpg
+
+CarteModele(cm12_184) :
+    extension : M12
+    nom : Lurking Crocodile
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/184.jpg
+
+CarteModele(cm12_185) :
+    extension : M12
+    nom : Naturalize
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/185.jpg
+
+CarteModele(cm12_186) :
+    extension : M12
+    nom : Overrun
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/186.jpg
+
+CarteModele(cm12_187) :
+    extension : M12
+    nom : Plummet
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/187.jpg
+
+CarteModele(cm12_188) :
+    extension : M12
+    nom : Primeval Titan
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/188.jpg
+
+CarteModele(cm12_189) :
+    extension : M12
+    nom : Primordial Hydra
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/189.jpg
+
+CarteModele(cm12_190) :
+    extension : M12
+    nom : Rampant Growth
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/190.jpg
+
+CarteModele(cm12_191) :
+    extension : M12
+    nom : Reclaim
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/191.jpg
+
+CarteModele(cm12_192) :
+    extension : M12
+    nom : Rites of Flourishing
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/192.jpg
+
+CarteModele(cm12_193) :
+    extension : M12
+    nom : Runeclaw Bear
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/193.jpg
+
+CarteModele(cm12_194) :
+    extension : M12
+    nom : Sacred Wolf
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/194.jpg
+
+CarteModele(cm12_195) :
+    extension : M12
+    nom : Skinshifter
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/195.jpg
+
+CarteModele(cm12_196) :
+    extension : M12
+    nom : Stampeding Rhino
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/196.jpg
+
+CarteModele(cm12_197) :
+    extension : M12
+    nom : Stingerfling Spider
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/197.jpg
+
+CarteModele(cm12_198) :
+    extension : M12
+    nom : Titanic Growth
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/198.jpg
+
+CarteModele(cm12_199) :
+    extension : M12
+    nom : Trollhide
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/199.jpg
+
+CarteModele(cm12_200) :
+    extension : M12
+    nom : Vastwood Gorger
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/200.jpg
+
+CarteModele(cm12_201) :
+    extension : M12
+    nom : Adaptive Automaton
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/201.jpg
+
+CarteModele(cm12_202) :
+    extension : M12
+    nom : Angel's Feather
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/202.jpg
+
+CarteModele(cm12_203) :
+    extension : M12
+    nom : Crown of Empires
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/203.jpg
+
+CarteModele(cm12_204) :
+    extension : M12
+    nom : Crumbling Colossus
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/204.jpg
+
+CarteModele(cm12_205) :
+    extension : M12
+    nom : Demon's Horn
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/205.jpg
+
+CarteModele(cm12_206) :
+    extension : M12
+    nom : Dragon's Claw
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/206.jpg
+
+CarteModele(cm12_207) :
+    extension : M12
+    nom : Druidic Satchel
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/207.jpg
+
+CarteModele(cm12_208) :
+    extension : M12
+    nom : Elixir of Immortality
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/208.jpg
+
+CarteModele(cm12_209) :
+    extension : M12
+    nom : Greatsword
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/209.jpg
+
+CarteModele(cm12_210) :
+    extension : M12
+    nom : Kite Shield
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/210.jpg
+
+CarteModele(cm12_211) :
+    extension : M12
+    nom : Kraken's Eye
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/211.jpg
+
+CarteModele(cm12_212) :
+    extension : M12
+    nom : Manalith
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/212.jpg
+
+CarteModele(cm12_213) :
+    extension : M12
+    nom : Pentavus
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/213.jpg
+
+CarteModele(cm12_214) :
+    extension : M12
+    nom : Quicksilver Amulet
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/214.jpg
+
+CarteModele(cm12_215) :
+    extension : M12
+    nom : Rusted Sentinel
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/215.jpg
+
+CarteModele(cm12_216) :
+    extension : M12
+    nom : Scepter of Empires
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/216.jpg
+
+CarteModele(cm12_217) :
+    extension : M12
+    nom : Solemn Simulacrum
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/217.jpg
+
+CarteModele(cm12_218) :
+    extension : M12
+    nom : Sundial of the Infinite
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/218.jpg
+
+CarteModele(cm12_219) :
+    extension : M12
+    nom : Swiftfoot Boots
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/219.jpg
+
+CarteModele(cm12_220) :
+    extension : M12
+    nom : Thran Golem
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/220.jpg
+
+CarteModele(cm12_221) :
+    extension : M12
+    nom : Throne of Empires
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/221.jpg
+
+CarteModele(cm12_222) :
+    extension : M12
+    nom : Worldslayer
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/222.jpg
+
+CarteModele(cm12_223) :
+    extension : M12
+    nom : Wurm's Tooth
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/223.jpg
+
+CarteModele(cm12_224) :
+    extension : M12
+    nom : Buried Ruin
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/224.jpg
+
+CarteModele(cm12_225) :
+    extension : M12
+    nom : Dragonskull Summit
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/225.jpg
+
+CarteModele(cm12_226) :
+    extension : M12
+    nom : Drowned Catacomb
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/226.jpg
+
+CarteModele(cm12_227) :
+    extension : M12
+    nom : Glacial Fortress
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/227.jpg
+
+CarteModele(cm12_228) :
+    extension : M12
+    nom : Rootbound Crag
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/228.jpg
+
+CarteModele(cm12_229) :
+    extension : M12
+    nom : Sunpetal Grove
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/229.jpg
+
+CarteModele(cm12_230) :
+    extension : M12
+    nom : Plains
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/230.jpg
+
+CarteModele(cm12_231) :
+    extension : M12
+    nom : Plains
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/231.jpg
+
+CarteModele(cm12_232) :
+    extension : M12
+    nom : Plains
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/232.jpg
+
+CarteModele(cm12_233) :
+    extension : M12
+    nom : Plains
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/233.jpg
+
+CarteModele(cm12_234) :
+    extension : M12
+    nom : Island
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/234.jpg
+
+CarteModele(cm12_235) :
+    extension : M12
+    nom : Island
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/235.jpg
+
+CarteModele(cm12_236) :
+    extension : M12
+    nom : Island
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/236.jpg
+
+CarteModele(cm12_237) :
+    extension : M12
+    nom : Island
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/237.jpg
+
+CarteModele(cm12_238) :
+    extension : M12
+    nom : Swamp
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/238.jpg
+
+CarteModele(cm12_239) :
+    extension : M12
+    nom : Swamp
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/239.jpg
+
+CarteModele(cm12_240) :
+    extension : M12
+    nom : Swamp
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/240.jpg
+
+CarteModele(cm12_241) :
+    extension : M12
+    nom : Swamp
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/241.jpg
+
+CarteModele(cm12_242) :
+    extension : M12
+    nom : Mountain
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/242.jpg
+
+CarteModele(cm12_243) :
+    extension : M12
+    nom : Mountain
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/243.jpg
+
+CarteModele(cm12_244) :
+    extension : M12
+    nom : Mountain
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/244.jpg
+
+CarteModele(cm12_245) :
+    extension : M12
+    nom : Mountain
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/245.jpg
+
+CarteModele(cm12_246) :
+    extension : M12
+    nom : Forest
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/246.jpg
+
+CarteModele(cm12_247) :
+    extension : M12
+    nom : Forest
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/247.jpg
+
+CarteModele(cm12_248) :
+    extension : M12
+    nom : Forest
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/248.jpg
+
+CarteModele(cm12_249) :
+    extension : M12
+    nom : Forest
+    imageUrl : http://magicsupremacy.com/images/cards/m12/en/normal/249.jpg
+
+
+CarteModele(cm12_T1) :
+    extension : M12
+    nom : Bird Token
+    imageUrl : /public/images/cartes/bird.jpg
+    
+CarteModele(cm12_T2) :
+    extension : M12
+    nom : Soldier Token
+    imageUrl : /public/images/cartes/soldier.jpg
+    
+CarteModele(cm12_T3) :
+    extension : M12
+    nom : Zombie Token
+    imageUrl : /public/images/cartes/zombie2.jpg
+    
+CarteModele(cm12_T4) :
+    extension : M12
+    nom : Beast Token
+    imageUrl : /public/images/cartes/beast.jpg
+    
+CarteModele(cm12_T5) :
+    extension : M12
+    nom : Saproling Token
+    imageUrl : /public/images/cartes/saproling.jpg
+    
+CarteModele(cm12_T6) :
+    extension : M12
+    nom : Wurm Token
+    imageUrl : /public/images/cartes/wurm.jpg
+    
+CarteModele(cm12_T7) :
+    extension : M12
+    nom : Pentavite Token
+    imageUrl : /public/images/cartes/pentavite.jpg
+    
+ 

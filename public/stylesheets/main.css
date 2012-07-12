@@ -151,9 +151,9 @@ body {
 }
 
 .attachee {
-	width: 30px;
+	/*width: 30px;
 	overflow: hidden;
-	margin-left: -5px;
+	margin-left: -5px;*/
 }
 
 .attachee img {
